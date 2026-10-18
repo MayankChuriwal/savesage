@@ -1,0 +1,479 @@
+{
+ "slug": "kotak-white-reserve",
+ "card_id": 397,
+ "title": "Kotak White Reserve credit card",
+ "display_name": "White Reserve",
+ "issuer": {
+  "slug": "kotak",
+  "name": "Kotak"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": 12500,
+  "renewal": 12500,
+  "addon": 0,
+  "forex_markup_pct": 2,
+  "apr_pct": 42
+ },
+ "return_percentage": "3% to 6%",
+ "overview": "An invite-only White Reserve card delivering ultra-premium lifestyle privileges, luxury travel perks, concierge support, and milestone bonuses.",
+ "best_suited": [
+  "Experience",
+  "Travel Booking",
+  "Hotel Transfer"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "brand-wallet",
+  "cashback"
+ ],
+ "benefit_types": [
+  "MEMBERSHIP",
+  "CONCIERGE",
+  "GOLF"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE",
+  "INTERNATIONAL_LOUNGE",
+  "ADD_ON_CARD_DOMESTIC_LOUNGE",
+  "ADD_ON_CARD_INTERNATIONAL_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/Mapped/KOTAK.webp",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/KOTAK.png"
+ },
+ "apply_link": null,
+ "earn_rules": [],
+ "exclusions": [
+  {
+   "name": "Base Rewards",
+   "category": null
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "Education",
+   "category": "Education"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Club Marriott",
+   "type": "MEMBERSHIP",
+   "description": "Club Marriott membership",
+   "offer": "With complimentary concierge services, enjoy luxurious experiences like a personal shopping team, access to exclusive events around the world, dining reservations at the finest restaurants across the world, and much more.",
+   "duration": "Ongoing",
+   "howToAvail": "To avail your Club Marriott membership, check your email for the activation link and membership number. Download the Club Marriott app, open it, and tap “Activate Membership.” Enter your membership number or registered mobile number, set a 6-digit PIN, and complete activation. Once activated, enjoy exclusive benefits at participating Marriott hotels.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/cardbenefits-logos/Club%20Marriott.png"
+  },
+  {
+   "name": "Concierge",
+   "type": "CONCIERGE",
+   "description": "24x7 Concierge Services",
+   "offer": "Enjoy 2 golf rounds every month at selected golf courses around the world.",
+   "duration": "Ongoing",
+   "howToAvail": "You can reach your Lifestyle Manager from 10 am to 8 pm.\nEmail: WhiteReserve@crib-life.com\nPhone: +91 11 35124242.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Experience.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Club Marriott",
+   "child": "Club Marriott membership"
+  },
+  {
+   "mainTitle": "Concierge",
+   "child": "24x7 Concierge Services"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "No explicit spend condition"
+    ]
+   },
+   {
+    "maintitle": "International lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "Unlimited through Priority Pass membership"
+    ]
+   },
+   {
+    "maintitle": "Add on card domestic lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "No explicit spend condition"
+    ]
+   },
+   {
+    "maintitle": "Add on card international lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "As per primary card."
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "Unlimited",
+    "visitsPerCycle": "Unlimited",
+    "duration": null,
+    "eligibility": "No explicit spend condition"
+   },
+   {
+    "name": "International Lounges",
+    "tier": "International lounge",
+    "limit": "Unlimited",
+    "visitsPerCycle": "Unlimited",
+    "duration": null,
+    "eligibility": "Unlimited through Priority Pass membership"
+   },
+   {
+    "name": "Add-on Card Domestic Lounges",
+    "tier": "Add on card domestic lounge",
+    "limit": "Unlimited",
+    "visitsPerCycle": "Unlimited",
+    "duration": null,
+    "eligibility": "No explicit spend condition"
+   }
+  ],
+  "airports": 33
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 300000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "₹5,000 worth white pass.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 1000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "₹15,000 worth white pass.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 3,
+   "spent": 2000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "₹22,000 worth white pass.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 4,
+   "spent": 3000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "₹24,000 worth white pass.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 5,
+   "spent": 4000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "₹26,000 worth white pass.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 6,
+   "spent": 5000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "₹28,000 worth white pass.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 7,
+   "spent": 7500000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "₹63,000 worth white pass.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 8,
+   "spent": 10000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "₹67,000 worth white pass.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 0,
+  "earn_rules_structured": 0,
+  "earn_rules_emitted": 0,
+  "earn_rules_with_category": 0,
+  "benefits_total": 3,
+  "benefits_structured": 2,
+  "lounge_total": 4,
+  "lounge_structured": 3,
+  "milestones_count": 8,
+  "categories_tested": 16,
+  "categories_earning": 0
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 0,
+  "max_rate_pct": 0.0,
+  "base_rate_pct": null,
+  "point_value_inr": null
+ }
+}

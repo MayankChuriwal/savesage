@@ -1,0 +1,338 @@
+{
+ "slug": "hdfc-doctors-superia",
+ "card_id": 8999,
+ "title": "HDFC Doctors Superia credit card",
+ "display_name": "Doctors Superia",
+ "issuer": {
+  "slug": "hdfc",
+  "name": "HDFC"
+ },
+ "network": "MASTERCARD",
+ "fees": {
+  "joining": 1000,
+  "renewal": 1000,
+  "addon": 0,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 45
+ },
+ "return_percentage": "1.5% to 2.5%",
+ "overview": "A travel and lifestyle card crafted for doctors, providing higher reward points on professional spends, travel benefits, and lifestyle privileges.",
+ "best_suited": [
+  "Travel Booking",
+  "Experience"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "catalogue-products"
+ ],
+ "benefit_types": [
+  "INSURANCE"
+ ],
+ "lounge_types": [],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/DOCTORS%20SUPERIA.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/HDFC.png"
+ },
+ "apply_link": "https://track.techtrack.in/click?campaign_id=158&pub_id=1356&p1=SaveSage&p2=SS01",
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 3,
+    "per": 200,
+    "currency": "INR",
+    "unit": "Reward Points (RPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 200,
+   "raw_text": "Earn 3 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Insurance",
+   "type": "INSURANCE",
+   "description": "Protection on accidents due to professional negligence.",
+   "offer": "Protection up to Rs 20 lakh on accidents due to professional negligence (Up to Rs 4 lakh per accident)",
+   "duration": "Ongoing",
+   "howToAvail": "Contact at 1800-266-9777 or schedule a call. You can also send a missed call to +91-9980970424 or email buyonline@hdfclife.in.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Insurance.webp"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Insurance",
+   "child": "Protection on accidents due to professional negligence."
+  }
+ ],
+ "lounge": {
+  "tiers": [],
+  "structured": [],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 15000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": true,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "The joining fee will be waived.",
+   "milestoneType": "QUARTER"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 100000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 1,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 1,
+  "earn_rules_with_category": 0,
+  "benefits_total": 1,
+  "benefits_structured": 1,
+  "lounge_total": 0,
+  "lounge_structured": 0,
+  "milestones_count": 2,
+  "categories_tested": 16,
+  "categories_earning": 12
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.225,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 22.5,
+   "reward_points": 150,
+   "point_value_inr": 0.15,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 12,
+  "max_rate_pct": 0.225,
+  "base_rate_pct": 0.225,
+  "point_value_inr": 0.15
+ }
+}

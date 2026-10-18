@@ -1,0 +1,9 @@
+{
+ "rows_api": 1505,
+ "rows_recovered": 2224,
+ "rows_dict_filled": 1360,
+ "cat_from_name": 307,
+ "merchant_from_via": 84,
+ "rate_parse_misses": [],
+ "missing_earn": []
+}

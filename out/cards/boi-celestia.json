@@ -1,0 +1,324 @@
+{
+ "slug": "boi-celestia",
+ "card_id": 69955,
+ "title": "Bank Of India Celestia credit card",
+ "display_name": "Celestia",
+ "issuer": {
+  "slug": "bank-of-india",
+  "name": "Bank Of India"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": null,
+  "renewal": null,
+  "addon": null,
+  "forex_markup_pct": null,
+  "apr_pct": null
+ },
+ "return_percentage": "NA",
+ "overview": "BOI Celestia Credit Card is a premium lifestyle card offering rewards, travel benefits, lounge access, and privileges across dining, shopping, and everyday spends.",
+ "best_suited": [],
+ "flags": {
+  "is_fd_card": null,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "catalogue-products"
+ ],
+ "benefit_types": [],
+ "lounge_types": [],
+ "images": {
+  "card": "https://storage.googleapis.com/savesagemainassets/Mapped/BOI_Mapped.webp",
+  "bank_logo": "https://storage.googleapis.com/savesagemainassets/bankLogo/BOI.webp"
+ },
+ "apply_link": null,
+ "earn_rules": [],
+ "exclusions": [],
+ "benefits": [],
+ "benefits_prose": [],
+ "lounge": {
+  "tiers": [],
+  "structured": [],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 0,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": null,
+   "renewalBenefit": null,
+   "joiningFeeWaiver": null,
+   "renewalFeeWaiver": null,
+   "cycleType": "STATEMENT",
+   "benefits": "E-Vouchers worth over Rs. 10,000",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 50000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": null,
+   "renewalBenefit": null,
+   "joiningFeeWaiver": null,
+   "renewalFeeWaiver": null,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 3,
+   "spent": 250000,
+   "startAmount": 0,
+   "duration": 3,
+   "isRecurring": false,
+   "welcomeBenefit": null,
+   "renewalBenefit": null,
+   "joiningFeeWaiver": null,
+   "renewalFeeWaiver": null,
+   "cycleType": "STATEMENT",
+   "benefits": "The joining fee will be waived.",
+   "milestoneType": "MONTH"
+  },
+  {
+   "milestoneNumber": 4,
+   "spent": 0,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "E-Vouchers worth over Rs. 10,000",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 5,
+   "spent": 50000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 6,
+   "spent": 250000,
+   "startAmount": 0,
+   "duration": 3,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": true,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "The joining fee will be waived.",
+   "milestoneType": "MONTH"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 0,
+  "earn_rules_structured": 0,
+  "earn_rules_emitted": 0,
+  "earn_rules_with_category": 0,
+  "benefits_total": 0,
+  "benefits_structured": 0,
+  "lounge_total": 0,
+  "lounge_structured": 0,
+  "milestones_count": 6,
+  "categories_tested": 16,
+  "categories_earning": 0
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 0,
+  "max_rate_pct": 0.0,
+  "base_rate_pct": null,
+  "point_value_inr": null
+ }
+}

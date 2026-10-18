@@ -1,0 +1,450 @@
+[
+ {
+  "slug": "icici-hpcl-super-saver",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.5% effective",
+  "reward_worth_inr": 50,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "icici-hpcl-coral",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.5% effective",
+  "reward_worth_inr": 150,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "axis-magnus",
+  "category": "Rent",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "3.12% effective",
+  "reward_worth_inr": 312,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "axis-ace",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "5.0% effective",
+  "reward_worth_inr": 500,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "axis-airtel",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "25.0% effective",
+  "reward_worth_inr": 2500,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-tata-neu-infinity",
+  "category": "Gift Cards",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.5% effective",
+  "reward_worth_inr": 150,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-tata-neu-plus",
+  "category": "Gift Cards",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.0% effective",
+  "reward_worth_inr": 100,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-moneyback-plus",
+  "category": "Education",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.25% effective",
+  "reward_worth_inr": 25,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-diners-club-privilege",
+  "category": "Education",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.0% effective",
+  "reward_worth_inr": 100,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-diners-club-black",
+  "category": "Education",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "3.996% effective",
+  "reward_worth_inr": 399.6,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-paytm-select",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "5.0% effective",
+  "reward_worth_inr": 500,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-paytm",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "3.0% effective",
+  "reward_worth_inr": 300,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-bharat",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.5% effective",
+  "reward_worth_inr": 150,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hsbc-smartvalue",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.05% effective",
+  "reward_worth_inr": 105,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "idfc-power-plus",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "5.0% effective",
+  "reward_worth_inr": 500,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "kotak-indian-oil",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "3.0% effective",
+  "reward_worth_inr": 300,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.5% effective",
+  "reward_worth_inr": 50,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari",
+  "category": "UPI",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.5% effective",
+  "reward_worth_inr": 50,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari",
+  "category": "Insurance",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.5% effective",
+  "reward_worth_inr": 50,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.5% effective",
+  "reward_worth_inr": 50,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari",
+  "category": "Rent",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.5% effective",
+  "reward_worth_inr": 50,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari",
+  "category": "Wallets",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.5% effective",
+  "reward_worth_inr": 50,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "amex-payback",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.2% effective",
+  "reward_worth_inr": 20,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "sbi-bpcl-octane",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "6.25% effective",
+  "reward_worth_inr": 625,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "sbi-bpcl-octane",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.25% effective",
+  "reward_worth_inr": 125,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-infinia-plastic",
+  "category": "Education",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "3.996% effective",
+  "reward_worth_inr": 399.6,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "icici-times-black",
+  "category": "Education",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "2.0% effective",
+  "reward_worth_inr": 200,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-indian-oil-rbl",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "5.0% effective",
+  "reward_worth_inr": 500,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "idfc-lic-classic",
+  "category": "Insurance",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "4.8% effective",
+  "reward_worth_inr": 480,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "idfc-lic-select",
+  "category": "Insurance",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "8.0% effective",
+  "reward_worth_inr": 800,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-irctc",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.5% effective",
+  "reward_worth_inr": 150,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "dbs-5x-plus-signature-supercard",
+  "category": "Jewellery",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.25% effective",
+  "reward_worth_inr": 25,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-millennia-diners-club",
+  "category": "Education",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.0% effective",
+  "reward_worth_inr": 100,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "sbi-phonepe-select-black",
+  "category": "UPI",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.0% effective",
+  "reward_worth_inr": 100,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "sbi-phonepe-select-black",
+  "category": "Insurance",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "10.0% effective",
+  "reward_worth_inr": 1000,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "sbi-phonepe-select-black",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "10.0% effective",
+  "reward_worth_inr": 1000,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "hdfc-tata-neu-plus-rupay",
+  "category": "Gift Cards",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.0% effective",
+  "reward_worth_inr": 100,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "sbm-kredit-pe-fd",
+  "category": "UPI",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "3.0% effective",
+  "reward_worth_inr": 300,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "sbm-mobikwik-first-fd",
+  "category": "UPI",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.0% effective",
+  "reward_worth_inr": 100,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "axis-magnus-rupay",
+  "category": "Rent",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "3.12% effective",
+  "reward_worth_inr": 312,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-lite",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.25% effective",
+  "reward_worth_inr": 25,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-lite",
+  "category": "Insurance",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.25% effective",
+  "reward_worth_inr": 25,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-lite",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.25% effective",
+  "reward_worth_inr": 25,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-lite",
+  "category": "Rent",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.25% effective",
+  "reward_worth_inr": 25,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-lite",
+  "category": "Wallets",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.25% effective",
+  "reward_worth_inr": 25,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "indusind-cred-rupay",
+  "category": "UPI",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "1.0% effective",
+  "reward_worth_inr": 100,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "yes-bank-kreditpe-ace",
+  "category": "UPI",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "3.0% effective",
+  "reward_worth_inr": 300,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "au-cheq",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "6.0% effective",
+  "reward_worth_inr": 600,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "au-cheq-rupay",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "6.0% effective",
+  "reward_worth_inr": 600,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "sbi-tata-neu-plus-rupay",
+  "category": "Jewellery",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "2.0% effective",
+  "reward_worth_inr": 200,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "au-paytm-rupay",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.25% effective",
+  "reward_worth_inr": 25,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-plus",
+  "category": "Fuel",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.266% effective",
+  "reward_worth_inr": 26.6,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-plus",
+  "category": "Insurance",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.266% effective",
+  "reward_worth_inr": 26.6,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-plus",
+  "category": "Utilities",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.266% effective",
+  "reward_worth_inr": 26.6,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-plus",
+  "category": "Rent",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.266% effective",
+  "reward_worth_inr": 26.6,
+  "spend_tested": 10000
+ },
+ {
+  "slug": "rbl-world-safari-plus",
+  "category": "Wallets",
+  "card_page_says": "excluded, earns nothing",
+  "calculator_says": "0.266% effective",
+  "reward_worth_inr": 26.6,
+  "spend_tested": 10000
+ }
+]

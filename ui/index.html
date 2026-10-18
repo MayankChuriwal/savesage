@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SaveSage Card Explorer</title>
+<style>
+:root{
+  --bg:#f6f6f4; --panel:#fff; --ink:#16161a; --muted:#6b6b76; --line:#e3e3de;
+  --accent:#2f5fe0; --accent-soft:#eaf0ff;
+  --api:#1f7a4d; --api-bg:#e4f4ec;
+  --parsed:#8a5a00; --parsed-bg:#fdf0d9;
+  --dict:#5b3fa8; --dict-bg:#efe9fb;
+  --nulls:#8a8a94; --nulls-bg:#eeeeea;
+  --pos:#1f7a4d; --neg:#b3261e;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#131316; --panel:#1b1b1f; --ink:#e9e9ec; --muted:#9a9aa4; --line:#2c2c32;
+    --accent:#7d9dff; --accent-soft:#1e2740;
+    --api:#5cc98d; --api-bg:#12301f;
+    --parsed:#e0aa4a; --parsed-bg:#312512;
+    --dict:#b49aef; --dict-bg:#241c38;
+    --nulls:#8a8a94; --nulls-bg:#232327;
+    --pos:#5cc98d; --neg:#f2836f;
+  }
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+.wrap{display:flex;flex-direction:column;height:100%}
+
+header{padding:14px 20px;border-bottom:1px solid var(--line);background:var(--panel);
+  display:flex;gap:18px;align-items:baseline;flex-wrap:wrap;position:sticky;top:0;z-index:20}
+header h1{margin:0;font-size:15px;font-weight:640;letter-spacing:-.01em}
+header .stats{color:var(--muted);font-size:12px;display:flex;gap:14px;flex-wrap:wrap}
+header .stats b{color:var(--ink);font-weight:620;font-variant-numeric:tabular-nums}
+
+.controls{padding:10px 20px;border-bottom:1px solid var(--line);background:var(--panel);
+  display:flex;gap:8px;flex-wrap:wrap;align-items:center;position:sticky;top:53px;z-index:19}
+input[type=search],select{font:inherit;font-size:13px;padding:6px 9px;border:1px solid var(--line);
+  border-radius:7px;background:var(--bg);color:var(--ink);min-width:0}
+input[type=search]{flex:1 1 240px;max-width:340px}
+input[type=search]:focus,select:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
+.chk{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:var(--muted);
+  padding:5px 9px;border:1px solid var(--line);border-radius:7px;background:var(--bg);cursor:pointer;
+  user-select:none;white-space:nowrap}
+.chk input{margin:0;accent-color:var(--accent)}
+.chk:has(input:checked){color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+.count{margin-left:auto;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+button.link{background:none;border:none;color:var(--accent);font:inherit;font-size:12px;
+  cursor:pointer;padding:4px 2px;text-decoration:underline;text-underline-offset:2px}
+
+main{flex:1;display:grid;grid-template-columns:minmax(300px,1fr) minmax(0,1.45fr);
+  overflow:hidden;min-height:0}
+@media (max-width:900px){
+  main{grid-template-columns:1fr}
+  #detail{display:none}
+  body.showing-detail #list{display:none}
+  body.showing-detail #detail{display:block}
+}
+
+#list{overflow-y:auto;border-right:1px solid var(--line);padding:8px}
+.row{padding:9px 11px;border-radius:9px;cursor:pointer;display:grid;
+  grid-template-columns:34px 1fr auto;gap:10px;align-items:center;border:1px solid transparent}
+.row:hover{background:var(--panel)}
+.row.sel{background:var(--accent-soft);border-color:var(--accent)}
+.row img{width:34px;height:22px;object-fit:contain;border-radius:3px}
+.row .nm{font-weight:560;font-size:13.5px;line-height:1.25;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .sub{color:var(--muted);font-size:11.5px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .rt{text-align:right;font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted);
+  white-space:nowrap}
+.row .rt b{display:block;color:var(--ink);font-size:13px;font-weight:620}
+
+#detail{overflow-y:auto;padding:20px 22px 60px}
+.back{display:none}
+@media (max-width:900px){.back{display:inline-block;margin-bottom:12px}}
+.empty{color:var(--muted);padding:40px 10px;text-align:center}
+
+h2.title{margin:0 0 2px;font-size:19px;font-weight:660;letter-spacing:-.015em}
+.slug{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.overview{margin:10px 0 0;color:var(--muted);max-width:62ch}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 0}
+.tag{font-size:11.5px;padding:3px 8px;border-radius:20px;background:var(--bg);
+  border:1px solid var(--line);color:var(--muted)}
+
+section{margin-top:26px}
+section>h3{margin:0 0 9px;font-size:11px;font-weight:680;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--muted)}
+
+.facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px}
+.fact{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:9px 11px}
+.fact .k{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.fact .v{font-size:16px;font-weight:640;font-variant-numeric:tabular-nums;margin-top:2px}
+.fact .v small{font-size:11px;font-weight:500;color:var(--muted)}
+
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font-weight:600;font-size:10.5px;text-transform:uppercase;
+  letter-spacing:.05em;color:var(--muted);padding:0 8px 6px;border-bottom:1px solid var(--line)}
+td{padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tbl-scroll{overflow-x:auto}
+.rule-name{font-weight:550}
+.rule-sub{color:var(--muted);font-size:11.5px;margin-top:1px}
+/* cap is a free-text sentence on SaveSage's side, not a number — give it room */
+td.cap{font-size:12px;color:var(--muted);max-width:280px;min-width:150px}
+th.cap{min-width:150px}
+.base{font-size:10px;color:var(--muted);border:1px solid var(--line);border-radius:4px;
+  padding:1px 4px;margin-left:5px;vertical-align:1px}
+
+.p{font-size:10px;padding:1px 5px;border-radius:4px;font-weight:600;white-space:nowrap;
+  letter-spacing:.02em}
+.p-api{color:var(--api);background:var(--api-bg)}
+.p-parsed{color:var(--parsed);background:var(--parsed-bg)}
+.p-dictionary,.p-name_matches_taxonomy,.p-parsed_from_name,.p-inferred_card_unit{
+  color:var(--dict);background:var(--dict-bg)}
+.p-null{color:var(--nulls);background:var(--nulls-bg)}
+
+.bars{display:grid;gap:5px}
+.bar{display:grid;grid-template-columns:120px 1fr 92px;gap:10px;align-items:center;font-size:12.5px}
+.bar .lab{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar .track{height:16px;background:var(--bg);border:1px solid var(--line);border-radius:4px;
+  overflow:hidden}
+.bar .fill{height:100%;background:var(--accent);border-radius:3px 0 0 3px}
+.bar .fill.zero{background:var(--line)}
+.bar .val{text-align:right;font-variant-numeric:tabular-nums;font-size:12px}
+.bar .val small{color:var(--muted)}
+
+.excl{display:flex;gap:6px;flex-wrap:wrap}
+.excl .tag{color:var(--neg);border-color:color-mix(in srgb,var(--neg) 30%,var(--line))}
+
+.warn{background:var(--parsed-bg);border:1px solid color-mix(in srgb,var(--parsed) 30%,transparent);
+  border-radius:8px;padding:9px 11px;font-size:12.5px;margin-bottom:10px}
+.warn b{color:var(--parsed)}
+
+details{border:1px solid var(--line);border-radius:9px;background:var(--panel);
+  padding:9px 12px;margin-bottom:7px}
+details summary{cursor:pointer;font-weight:560;font-size:13px}
+details[open] summary{margin-bottom:7px}
+details .body{font-size:12.5px;color:var(--muted);white-space:pre-wrap}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11.5px;color:var(--muted);
+  padding:10px 0 0;border-top:1px solid var(--line);margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>SaveSage Card Explorer</h1>
+  <div class="stats" id="stats"></div>
+</header>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="Search card, bank, or rule…" autocomplete="off">
+  <select id="bank"><option value="">All banks</option></select>
+  <select id="net"><option value="">All networks</option></select>
+  <select id="coll"><option value="">All collections</option></select>
+  <select id="cat"><option value="">Any category…</option></select>
+  <select id="sort">
+    <option value="name">Sort: name</option>
+    <option value="max">Sort: best rate</option>
+    <option value="fee">Sort: annual fee</option>
+    <option value="rules">Sort: rule count</option>
+    <option value="cov">Sort: category coverage</option>
+  </select>
+  <label class="chk"><input type="checkbox" id="ltf">Lifetime free</label>
+  <label class="chk"><input type="checkbox" id="lounge">Lounge</label>
+  <label class="chk"><input type="checkbox" id="issuing">Issuing only</label>
+  <span class="count" id="count"></span>
+</div>
+
+<main>
+  <div id="list"></div>
+  <div id="detail"><div class="empty">Select a card</div></div>
+</main>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const money = n => n == null ? '—' : n === 0 ? 'Free' : '₹' + n.toLocaleString('en-IN');
+const pct = n => n == null ? '—' : (+n).toFixed(2).replace(/\.00$/, '') + '%';
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+let CARDS = [], COLLECTIONS = {}, VIEW = [], SEL = null;
+
+// Provenance is the whole point of this dataset — always show where a value came from.
+const prov = p => `<span class="p p-${esc(p||'null')}">${esc(p||'null')}</span>`;
+
+function rateText(r){
+  const v = r.rate.value, per = r.rate.per, u = r.rate.unit;
+  if (v == null) return '—';
+  if (u === 'Percent') return v + '%';
+  return `${v} <small>${esc(u||'pts')} / ₹${per ?? 100}</small>`;
+}
+
+function init(cards, collections){
+  CARDS = cards; COLLECTIONS = collections;
+
+  const banks = [...new Set(cards.map(c => c.issuer.name).filter(Boolean))].sort();
+  const nets  = [...new Set(cards.map(c => c.network).filter(Boolean))].sort();
+  const cats  = [...new Set(cards.flatMap(c => Object.keys(c.category_rates || {})))].sort();
+  fill('#bank', banks); fill('#net', nets); fill('#cat', cats);
+  fill('#coll', Object.keys(collections).sort().map(s =>
+    [s, `${collections[s].heading || s} (${collections[s].derived_count ?? '—'})`]));
+
+  const rules = cards.reduce((n, c) => n + c.earn_rules.length, 0);
+  const cells = cards.reduce((n, c) => n + Object.keys(c.category_rates || {}).length, 0);
+  $('#stats').innerHTML = [
+    [cards.length, 'cards'], [banks.length, 'issuers'],
+    [rules.toLocaleString(), 'earn rules'], [cells.toLocaleString(), 'rate cells']
+  ].map(([n, l]) => `<span><b>${n}</b> ${l}</span>`).join('');
+
+  document.querySelectorAll('.controls input,.controls select')
+    .forEach(el => el.addEventListener('input', render));
+  render();
+}
+
+function fill(sel, items){
+  const el = $(sel);
+  el.insertAdjacentHTML('beforeend', items.map(i => {
+    const [v, t] = Array.isArray(i) ? i : [i, i];
+    return `<option value="${esc(v)}">${esc(t)}</option>`;
+  }).join(''));
+}
+
+function render(){
+  const q = $('#q').value.trim().toLowerCase();
+  const bank = $('#bank').value, net = $('#net').value;
+  const coll = $('#coll').value, cat = $('#cat').value;
+  const ltf = $('#ltf').checked, lounge = $('#lounge').checked, issuing = $('#issuing').checked;
+  const members = coll ? new Set(COLLECTIONS[coll].derived_members || []) : null;
+
+  VIEW = CARDS.filter(c => {
+    if (bank && c.issuer.name !== bank) return false;
+    if (net && c.network !== net) return false;
+    if (members && !members.has(c.slug)) return false;
+    if (ltf && !(!c.fees.joining && !c.fees.renewal)) return false;
+    if (lounge && !c.lounge_types.length) return false;
+    if (issuing && c.flags.is_currently_issuing === false) return false;
+    if (cat){
+      const cell = (c.category_rates || {})[cat];
+      if (!cell || cell.earns_nothing) return false;
+    }
+    if (q){
+      const hay = c.title + ' ' + c.issuer.name + ' ' + c.slug + ' ' +
+                  c.earn_rules.map(r => r.name).join(' ');
+      if (!hay.toLowerCase().includes(q)) return false;
+    }
+    return true;
+  });
+
+  const catRate = c => cat ? ((c.category_rates||{})[cat]?.effective_rate_pct ?? -1) : null;
+  const sorters = {
+    name: (a, b) => a.title.localeCompare(b.title),
+    max:  (a, b) => (b.rate_summary?.max_rate_pct ?? -1) - (a.rate_summary?.max_rate_pct ?? -1),
+    fee:  (a, b) => (a.fees.renewal ?? 1e9) - (b.fees.renewal ?? 1e9),
+    rules:(a, b) => b.earn_rules.length - a.earn_rules.length,
+    cov:  (a, b) => covPct(b) - covPct(a),
+  };
+  VIEW.sort(cat ? (a, b) => catRate(b) - catRate(a) : sorters[$('#sort').value]);
+
+  $('#count').textContent = `${VIEW.length} of ${CARDS.length}`;
+  $('#list').innerHTML = VIEW.map(rowHTML(cat)).join('') ||
+    '<div class="empty">No cards match</div>';
+  $('#list').querySelectorAll('.row').forEach(el =>
+    el.onclick = () => select(el.dataset.slug));
+  if (SEL && VIEW.some(c => c.slug === SEL)) markSel();
+}
+
+function covPct(c){
+  const n = c.earn_rules.filter(r => !r.is_base_rate);
+  return n.length ? n.filter(r => r.category).length / n.length : 0;
+}
+
+const rowHTML = cat => c => {
+  const cell = cat ? (c.category_rates || {})[cat] : null;
+  const right = cell
+    ? `<b>${pct(cell.effective_rate_pct)}</b>${esc(cat)}`
+    : `<b>${c.fees.renewal === 0 ? 'Free' : money(c.fees.renewal)}</b>${c.earn_rules.length} rules`;
+  return `<div class="row" data-slug="${esc(c.slug)}">
+    <img src="${esc(c.images.bank_logo || '')}" alt="" loading="lazy"
+         onerror="this.style.visibility='hidden'">
+    <div><div class="nm">${esc(c.display_name || c.title)}</div>
+      <div class="sub">${esc(c.issuer.name)} · ${esc(c.network || '—')}</div></div>
+    <div class="rt">${right}</div></div>`;
+};
+
+function markSel(){
+  document.querySelectorAll('.row').forEach(el =>
+    el.classList.toggle('sel', el.dataset.slug === SEL));
+}
+
+function select(slug){
+  SEL = slug; markSel();
+  document.body.classList.add('showing-detail');
+  const c = CARDS.find(x => x.slug === slug);
+  $('#detail').innerHTML = detailHTML(c);
+  $('#detail').scrollTop = 0;
+  const b = $('#detail .back');
+  if (b) b.onclick = () => document.body.classList.remove('showing-detail');
+}
+
+function detailHTML(c){
+  const f = c.fees, s = c.rate_summary || {};
+  const nonBase = c.earn_rules.filter(r => !r.is_base_rate);
+  const withCat = nonBase.filter(r => r.category).length;
+  const comp = c.completeness || {};
+  const hidden = (comp.earn_rules_total || 0) - (comp.earn_rules_structured || 0);
+
+  const facts = [
+    ['Joining', money(f.joining)], ['Annual', money(f.renewal)],
+    ['Forex', f.forex_markup_pct == null ? '<small>unknown</small>' : pct(f.forex_markup_pct)],
+    ['APR', f.apr_pct == null ? '—' : pct(f.apr_pct) + ' <small>p.a.</small>'],
+    ['Best rate', s.max_rate_pct == null ? '—' : pct(s.max_rate_pct)],
+    ['Point value', s.point_value_inr ? '₹' + s.point_value_inr : '—'],
+  ].map(([k, v]) => `<div class="fact"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('');
+
+  const rules = c.earn_rules.map(r => `<tr>
+    <td><div class="rule-name">${esc(r.name)}${r.is_base_rate ? '<span class="base">base</span>' : ''}</div>
+      ${r.merchant_raw || r.booking_channel ? `<div class="rule-sub">${esc(r.merchant_raw || '')}${
+        r.booking_channel ? ' · via ' + esc(r.booking_channel) : ''}</div>` : ''}</td>
+    <td class="num">${rateText(r)}</td>
+    <td>${r.category ? esc(r.category) + (r.subcategory ? ' · ' + esc(r.subcategory) : '') : '<span style="color:var(--muted)">—</span>'}</td>
+    <td class="cap">${r.cap ? `<div>${esc(r.cap)}</div>` : ''}${
+      r.cap_cycle ? `<div class="rule-sub">cycle: ${esc(r.cap_cycle.toLowerCase())}</div>` : ''}${
+      r.min_txn ? `<div class="rule-sub">min spend ${money(r.min_txn)}</div>` : ''}${
+      !r.cap && !r.cap_cycle && !r.min_txn ? '<span style="color:var(--muted)">—</span>' : ''}</td>
+    <td>${prov(r.provenance.rate)} ${prov(r.provenance.category)}</td></tr>`).join('');
+
+  const rates = Object.entries(c.category_rates || {})
+    .sort((a, b) => (b[1].effective_rate_pct ?? 0) - (a[1].effective_rate_pct ?? 0));
+  const max = Math.max(1, ...rates.map(([, v]) => v.effective_rate_pct || 0));
+  const bars = rates.map(([k, v]) => `<div class="bar">
+      <div class="lab">${esc(k)}</div>
+      <div class="track"><div class="fill ${v.earns_nothing ? 'zero' : ''}"
+        style="width:${v.earns_nothing ? 100 : Math.max(2, (v.effective_rate_pct / max) * 100)}%"></div></div>
+      <div class="val">${v.earns_nothing ? '<small>nothing</small>'
+        : pct(v.effective_rate_pct) + (v.points_per_100 ? ` <small>${v.points_per_100}/₹100</small>` : '')}</div>
+    </div>`).join('');
+
+  const ms = c.milestones.map(m => `<tr>
+      <td class="num">${money(m.spent)}</td><td>${esc(m.benefits || '')}</td>
+      <td>${esc(m.cycleType || '')} · ${esc(m.milestoneType || '')}</td>
+      <td>${[m.joiningFeeWaiver && 'joining waiver', m.renewalFeeWaiver && 'renewal waiver',
+             m.welcomeBenefit && 'welcome', m.isRecurring && 'recurring']
+             .filter(Boolean).join(', ') || '—'}</td></tr>`).join('');
+
+  const bens = c.benefits.map(b => `<details><summary>${esc(b.name)} <span class="p p-api">${esc(b.type || '')}</span></summary>
+      <div class="body">${esc(b.offer || b.description || '')}${
+        b.howToAvail ? '\n\nHow to avail:\n• ' + esc(b.howToAvail.split('|').join('\n• ')) : ''}${
+        b.exclusion ? '\n\nExclusions:\n' + esc(b.exclusion) : ''}</div></details>`).join('');
+
+  const lounges = c.lounge.tiers.map(t => `<details><summary>${esc(t.maintitle)}</summary>
+      <div class="body">Limit: ${esc((t.limit || []).join(', ') || '—')}
+Eligibility: ${esc((t.eligibility || []).join(' / ') || '—')}</div></details>`).join('');
+
+  return `
+  <button class="link back">← Back to list</button>
+  <h2 class="title">${esc(c.title)}</h2>
+  <div class="slug">${esc(c.slug)} · id ${c.card_id} · ${esc(c.issuer.name)} · ${esc(c.network || '—')}</div>
+  ${c.overview ? `<p class="overview">${esc(c.overview)}</p>` : ''}
+  <div class="tags">
+    ${c.best_suited.map(t => `<span class="tag">${esc(t)}</span>`).join('')}
+    ${c.flags.is_currently_issuing === false ? '<span class="tag">not issuing</span>' : ''}
+    ${c.flags.is_business ? '<span class="tag">business</span>' : ''}
+    ${c.flags.is_fd_card ? '<span class="tag">FD-backed</span>' : ''}
+  </div>
+
+  <section><h3>At a glance</h3><div class="facts">${facts}</div></section>
+
+  <section><h3>Earn rules — ${c.earn_rules.length} of ${comp.earn_rules_total ?? '?'} stated</h3>
+    ${hidden > 0 ? `<div class="warn"><b>${hidden}</b> of these rules were hidden behind
+      SaveSage's app-wall. Their names and rates were recovered from prose; caps and minimum
+      spends exist only on the ${comp.earn_rules_structured} rows they returned structured.</div>` : ''}
+    <div class="tbl-scroll"><table>
+      <thead><tr><th>Rule</th><th class="num">Rate</th><th>Category</th>
+        <th class="cap">Cap &amp; conditions</th><th>Provenance</th></tr></thead>
+      <tbody>${rules}</tbody></table></div>
+    <div class="legend">Category labelled on ${withCat}/${nonBase.length} non-base rules
+      (${Math.round(covPct(c) * 100)}%). Base rate has no category by nature.</div>
+  </section>
+
+  ${rates.length ? `<section><h3>Category rates — measured at ₹${(rates[0][1].spend_tested||10000).toLocaleString('en-IN')} spend</h3>
+    <div class="bars">${bars}</div>
+    <div class="legend">From SaveSage's reward calculator, independent of the rules above.
+      Uncapped: a rate capped monthly still shows at full value here.</div></section>` : ''}
+
+  ${c.exclusions.length ? `<section><h3>Earns nothing on</h3>
+    <div class="excl">${c.exclusions.map(e =>
+      `<span class="tag">${esc(e.name)}</span>`).join('')}</div></section>` : ''}
+
+  ${bens ? `<section><h3>Benefits — ${c.benefits.length} of ${comp.benefits_total ?? '?'} stated</h3>${bens}</section>` : ''}
+  ${lounges ? `<section><h3>Lounge access${c.lounge.airports ? ` · ${c.lounge.airports} airports` : ''}</h3>${lounges}</section>` : ''}
+  ${ms ? `<section><h3>Milestones</h3><div class="tbl-scroll"><table>
+      <thead><tr><th class="num">Spend</th><th>Benefit</th><th>Cycle</th><th>Flags</th></tr></thead>
+      <tbody>${ms}</tbody></table></div></section>` : ''}
+
+  ${c.apply_link ? `<section><a href="${esc(c.apply_link)}" target="_blank" rel="noopener">Apply link ↗</a></section>` : ''}
+  `;
+}
+
+Promise.all([
+  fetch('../out/cards.ndjson').then(r => r.text())
+    .then(t => t.trim().split('\n').map(JSON.parse)),
+  fetch('../out/collections.json').then(r => r.json()),
+]).then(([cards, coll]) => init(cards, coll))
+  .catch(e => {
+    $('#list').innerHTML = `<div class="empty">Could not load data.<br><br>
+      Run <code>./serve.sh</code> from <code>~/Documents/savesage</code> and open
+      the printed URL — opening this file directly with <code>file://</code> blocks fetch.
+      <br><br><small>${esc(e.message)}</small></div>`;
+  });
+</script>
+</body>
+</html>

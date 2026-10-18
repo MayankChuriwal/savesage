@@ -1,0 +1,361 @@
+{
+ "slug": "axis-my-wings",
+ "card_id": 67,
+ "title": "Axis My Wings credit card",
+ "display_name": "My Wings",
+ "issuer": {
+  "slug": "axis",
+  "name": "Axis"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": 1200,
+  "renewal": 500,
+  "addon": 0,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 55.55
+ },
+ "return_percentage": "1% to 3%",
+ "overview": "A travel-focused card designed for frequent domestic flyers, offering accelerated rewards on flight and hotel bookings, travel vouchers, and lounge access at major airports.",
+ "best_suited": [
+  "Travel Booking",
+  "Experience"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "catalogue-products"
+ ],
+ "benefit_types": [
+  "VOUCHERS",
+  "DINING_ORDER_IN"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/MY%20WINGS.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/AXIS.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 4,
+    "per": 200,
+    "currency": "INR",
+    "unit": "Edge Rewards (ERs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 200,
+   "raw_text": "Earn 4 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Government",
+   "category": "Government"
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  },
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Eazeego",
+   "type": "VOUCHERS",
+   "description": "Flight Tickets",
+   "offer": "2 complimentary base fair flight tickets.",
+   "duration": "Ongoing",
+   "howToAvail": "To avail this Eazeego voucher with Axis My Wings, log in at https://axisbankaura.poshvine.com using your registered mobile number, enter the OTP sent to your phone, select your Eazeego voucher from the available benefits, and redeem it online at www.eazeego.com.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/Eazeego.png"
+  },
+  {
+   "name": "Eazeego",
+   "type": "VOUCHERS",
+   "description": "Upto 20% Cashbacks on Domestic Flights",
+   "offer": "Upto 20% cashbacks on domestic flights tickets.",
+   "duration": "Ongoing",
+   "howToAvail": "To avail this Eazeego voucher with Axis My Wings, log in at https://axisbankaura.poshvine.com using your registered mobile number, enter the OTP sent to your phone, select your Eazeego voucher from the available benefits, and redeem it online at www.eazeego.com.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/Eazeego.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Eazeego",
+   "child": "Flight Tickets"
+  },
+  {
+   "mainTitle": "Eazeego",
+   "child": "Upto 20% Cashbacks on Domestic Flights"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "1 per quarter"
+    ],
+    "eligibility": [
+     "Minimum spends of ₹50k in previous 3 calendar months."
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "1 per quarter",
+    "visitsPerCycle": "1",
+    "duration": "quarter",
+    "eligibility": "Minimum spends of ₹50k in previous 3 calendar months."
+   }
+  ],
+  "airports": 6
+ },
+ "milestones": [],
+ "completeness": {
+  "earn_rules_total": 1,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 1,
+  "earn_rules_with_category": 0,
+  "benefits_total": 5,
+  "benefits_structured": 2,
+  "lounge_total": 1,
+  "lounge_structured": 1,
+  "milestones_count": 0,
+  "categories_tested": 16,
+  "categories_earning": 9
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 9,
+  "max_rate_pct": 0.4,
+  "base_rate_pct": 0.4,
+  "point_value_inr": 0.2
+ }
+}

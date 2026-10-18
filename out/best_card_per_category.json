@@ -1,0 +1,299 @@
+{
+ "Fuel": [
+  {
+   "card_id": 3092,
+   "slug": "sbi-bpcl-octane",
+   "times_suggested": 730
+  },
+  {
+   "card_id": 40047,
+   "slug": "rbl-platinum-traveleasy",
+   "times_suggested": 1
+  }
+ ],
+ "Travel": [
+  {
+   "card_id": 341,
+   "slug": "hsbc-premier-metal",
+   "times_suggested": 730
+  },
+  {
+   "card_id": 22437,
+   "slug": "hsbc-priv",
+   "times_suggested": 1
+  }
+ ],
+ "UPI": [
+  {
+   "card_id": 35181,
+   "slug": "axis-magnus-rupay",
+   "times_suggested": 721
+  },
+  {
+   "card_id": 9000,
+   "slug": "hdfc-bharat-cashback",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 26905,
+   "slug": "scb-beyond",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 8924,
+   "slug": "sbi-lifestyle-home-centre-select",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 34471,
+   "slug": "sbm-credilio-novio-rupay-fd",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 36151,
+   "slug": "rbl-nova",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 8911,
+   "slug": "hdfc-hog-diners-club",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 5314,
+   "slug": "yes-bank-byoc",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 240,
+   "slug": "axis-reserve",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 70005,
+   "slug": "dcb-bank-novio",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 179,
+   "slug": "sbi-air-india-signature",
+   "times_suggested": 1
+  }
+ ],
+ "International": [
+  {
+   "card_id": 13505,
+   "slug": "equitas-powermiles",
+   "times_suggested": 730
+  },
+  {
+   "card_id": 2473,
+   "slug": "axis-olympus",
+   "times_suggested": 1
+  }
+ ],
+ "Education": [
+  {
+   "card_id": 341,
+   "slug": "hsbc-premier-metal",
+   "times_suggested": 729
+  },
+  {
+   "card_id": 38,
+   "slug": "axis-burgundy-private",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 9495,
+   "slug": "axis-primus",
+   "times_suggested": 1
+  }
+ ],
+ "Jewellery": [
+  {
+   "card_id": 429,
+   "slug": "amex-platinum-charge",
+   "times_suggested": 730
+  },
+  {
+   "card_id": 7228,
+   "slug": "amex-centurion-black",
+   "times_suggested": 1
+  }
+ ],
+ "Grocery": [
+  {
+   "card_id": 1446,
+   "slug": "hsbc-live",
+   "times_suggested": 728
+  },
+  {
+   "card_id": 8924,
+   "slug": "sbi-lifestyle-home-centre-select",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 7228,
+   "slug": "amex-centurion-black",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 22888,
+   "slug": "sbi-gold-more",
+   "times_suggested": 1
+  }
+ ],
+ "Insurance": [
+  {
+   "card_id": 19002,
+   "slug": "sbi-phonepe-select-black",
+   "times_suggested": 731
+  }
+ ],
+ "Offline Spends": [
+  {
+   "card_id": 352,
+   "slug": "idfc-private",
+   "times_suggested": 729
+  },
+  {
+   "card_id": 38,
+   "slug": "axis-burgundy-private",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 22437,
+   "slug": "hsbc-priv",
+   "times_suggested": 1
+  }
+ ],
+ "Dining": [
+  {
+   "card_id": 429,
+   "slug": "amex-platinum-charge",
+   "times_suggested": 729
+  },
+  {
+   "card_id": 8924,
+   "slug": "sbi-lifestyle-home-centre-select",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 7228,
+   "slug": "amex-centurion-black",
+   "times_suggested": 1
+  }
+ ],
+ "Gift Cards": [
+  {
+   "card_id": 145,
+   "slug": "hdfc-infinia-metal",
+   "times_suggested": 729
+  },
+  {
+   "card_id": 7228,
+   "slug": "amex-centurion-black",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 5160,
+   "slug": "hdfc-infinia-plastic",
+   "times_suggested": 1
+  }
+ ],
+ "Utilities": [
+  {
+   "card_id": 1446,
+   "slug": "hsbc-live",
+   "times_suggested": 728
+  },
+  {
+   "card_id": 19003,
+   "slug": "hdfc-phonepe-ultimo",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 19002,
+   "slug": "sbi-phonepe-select-black",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 48,
+   "slug": "axis-airtel",
+   "times_suggested": 1
+  }
+ ],
+ "Online Shopping": [
+  {
+   "card_id": 144,
+   "slug": "hdfc-diners-club-black-metal",
+   "times_suggested": 725
+  },
+  {
+   "card_id": 8924,
+   "slug": "sbi-lifestyle-home-centre-select",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 7228,
+   "slug": "amex-centurion-black",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 145,
+   "slug": "hdfc-infinia-metal",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 8911,
+   "slug": "hdfc-hog-diners-club",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 5160,
+   "slug": "hdfc-infinia-plastic",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 147,
+   "slug": "hdfc-diners-club-black",
+   "times_suggested": 1
+  }
+ ],
+ "Government": [
+  {
+   "card_id": 3067,
+   "slug": "hdfc-biz-black-metal",
+   "times_suggested": 731
+  }
+ ],
+ "Rent": [
+  {
+   "card_id": 341,
+   "slug": "hsbc-premier-metal",
+   "times_suggested": 729
+  },
+  {
+   "card_id": 38,
+   "slug": "axis-burgundy-private",
+   "times_suggested": 1
+  },
+  {
+   "card_id": 9495,
+   "slug": "axis-primus",
+   "times_suggested": 1
+  }
+ ],
+ "Wallets": [
+  {
+   "card_id": 341,
+   "slug": "hsbc-premier-metal",
+   "times_suggested": 730
+  },
+  {
+   "card_id": 9495,
+   "slug": "axis-primus",
+   "times_suggested": 1
+  }
+ ]
+}

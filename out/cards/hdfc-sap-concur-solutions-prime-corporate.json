@@ -1,0 +1,350 @@
+{
+ "slug": "hdfc-sap-concur-solutions-prime-corporate",
+ "card_id": 3071,
+ "title": "HDFC SAP Concur Solutions Prime Corporate credit card",
+ "display_name": "SAP Concur Solutions Prime Corporate",
+ "issuer": {
+  "slug": "hdfc",
+  "name": "HDFC"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": null,
+  "renewal": 0,
+  "addon": 0,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 45
+ },
+ "return_percentage": "1% to 3%",
+ "overview": "A SAP Concur Prime corporate card designed for enterprises, offering global acceptance, travel perks, and integration with SAP’s expense solutions.",
+ "best_suited": [
+  "Travel Booking"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": true,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "travel-booking",
+  "catalogue-products"
+ ],
+ "benefit_types": [
+  "INSURANCE",
+  "TRAVEL",
+  "OTHERS"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/Mapped/HDFC.webp",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/HDFC.png"
+ },
+ "apply_link": "https://track.techtrack.in/click?campaign_id=158&pub_id=1356&p1=SaveSage&p2=SS01",
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 3,
+    "per": 150,
+    "currency": "INR",
+    "unit": "Reward Points (RPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 150,
+   "raw_text": "Earn 3 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Insurance",
+   "type": "INSURANCE",
+   "description": "Insurance",
+   "offer": "Fire and burglary insurance for shops up to ₹5 lakh.|Cash in safe/transit up to ₹25,000.|Electronic equipment insurance (excluding terrorism) up to ₹50,000.|Hospital cash (accident-only) payable per day up to ₹1,000.|Hospital cash (illness-only) payable per day up to ₹1,000.",
+   "duration": "Ongoing",
+   "howToAvail": "Avail Insurance package starting at an annual premium of Rs.3,785 which includes the above.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Insurance.webp"
+  },
+  {
+   "name": "MMT MyBiz",
+   "type": "TRAVEL",
+   "description": "4% off on Flights and Hotels Booking",
+   "offer": "4% off on flight and hotel bookings. Discounted fares, free meal and seat selection, and low fees for cancellation.",
+   "duration": "Ongoing",
+   "howToAvail": "Book your flights and hotels on MMT MyBiz using HDFC Credit Card.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/MMT.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Insurance",
+   "child": "Insurance"
+  },
+  {
+   "mainTitle": "MMT MyBiz",
+   "child": "4% off on Flights and Hotels Booking"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "2 per quarter"
+    ],
+    "eligibility": [
+     "No explicit spend condition"
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "2 per quarter",
+    "visitsPerCycle": "2",
+    "duration": "quarter",
+    "eligibility": "No explicit spend condition"
+   }
+  ],
+  "airports": 0
+ },
+ "milestones": [],
+ "completeness": {
+  "earn_rules_total": 1,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 1,
+  "earn_rules_with_category": 0,
+  "benefits_total": 3,
+  "benefits_structured": 2,
+  "lounge_total": 1,
+  "lounge_structured": 1,
+  "milestones_count": 0,
+  "categories_tested": 16,
+  "categories_earning": 11
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 60,
+   "reward_points": 200,
+   "point_value_inr": 0.3,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 11,
+  "max_rate_pct": 0.6,
+  "base_rate_pct": 0.6,
+  "point_value_inr": 0.3
+ }
+}

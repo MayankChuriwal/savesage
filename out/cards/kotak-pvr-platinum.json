@@ -1,0 +1,276 @@
+{
+ "slug": "kotak-pvr-platinum",
+ "card_id": 394,
+ "title": "Kotak PVR Platinum credit card",
+ "display_name": "PVR Platinum",
+ "issuer": {
+  "slug": "kotak",
+  "name": "Kotak"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": null,
+  "renewal": 999,
+  "addon": 299,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 42
+ },
+ "return_percentage": "0.5% to 1%",
+ "overview": "A PVR Platinum variant providing higher free movie tickets, premium dining privileges, and milestone vouchers for avid entertainment lovers.",
+ "best_suited": [
+  "Experience"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "brand-wallet"
+ ],
+ "benefit_types": [
+  "INSURANCE"
+ ],
+ "lounge_types": [],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/Mapped/KOTAK.webp",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/KOTAK.png"
+ },
+ "apply_link": null,
+ "earn_rules": [],
+ "exclusions": [
+  {
+   "name": "Base Rewards",
+   "category": null
+  },
+  {
+   "name": "Utilities",
+   "category": null
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Insurance",
+   "type": "INSURANCE",
+   "description": "Lost Card Liability",
+   "offer": null,
+   "duration": "Ongoing",
+   "howToAvail": "To claim this insurance, report the incident to Kotak Mahindra Bank Customer Care at 1860 266 2666 or email care@zurichkotak.com within 30 days of the incident. Ensure to submit all required documents within 60 days of reporting the claim.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Insurance.webp"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Insurance",
+   "child": "Lost Card Liability"
+  }
+ ],
+ "lounge": {
+  "tiers": [],
+  "structured": [],
+  "airports": 0
+ },
+ "milestones": [],
+ "completeness": {
+  "earn_rules_total": 0,
+  "earn_rules_structured": 0,
+  "earn_rules_emitted": 0,
+  "earn_rules_with_category": 0,
+  "benefits_total": 1,
+  "benefits_structured": 1,
+  "lounge_total": 0,
+  "lounge_structured": 0,
+  "milestones_count": 0,
+  "categories_tested": 16,
+  "categories_earning": 0
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 0,
+  "max_rate_pct": 0.0,
+  "base_rate_pct": null,
+  "point_value_inr": null
+ }
+}

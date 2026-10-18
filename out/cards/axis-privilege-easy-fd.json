@@ -1,0 +1,395 @@
+{
+ "slug": "axis-privilege-easy-fd",
+ "card_id": 35783,
+ "title": "Axis Privilege Easy (FD) credit card",
+ "display_name": "Privilege Easy (FD)",
+ "issuer": {
+  "slug": "axis",
+  "name": "Axis"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": 1500,
+  "renewal": 1500,
+  "addon": null,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 49.36
+ },
+ "return_percentage": "NA",
+ "overview": "A Secured lifestyle rewards card offering accelerated points on shopping, dining, and travel spends, with milestone vouchers and flexible redemption options.",
+ "best_suited": [],
+ "flags": {
+  "is_fd_card": true,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "catalogue-products"
+ ],
+ "benefit_types": [
+  "DINING_ORDER_IN",
+  "INSURANCE"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/Mapped/AXIS.webp",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/AXIS.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 10,
+    "per": 200,
+    "currency": "INR",
+    "unit": "Edge Rewards (ERs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 200,
+   "raw_text": "Earn 10 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  },
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  },
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "Education",
+   "category": "Education"
+  },
+  {
+   "name": "Government",
+   "category": "Government"
+  },
+  {
+   "name": "UPI",
+   "category": "UPI"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "EazyDiner",
+   "type": "DINING_ORDER_IN",
+   "description": "15% off via Dining Delights Program",
+   "offer": "15% off up to INR 500 on EazyDiner.|Minimum Order Value INR 2500",
+   "duration": "Ongoing",
+   "howToAvail": "Select the restaurant to be paid on the EazyDiner app.|Enter the amount, and select the offer.|Discount will be applied and net payment will be required to be made.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/EasyDiner.png"
+  },
+  {
+   "name": "Insurance",
+   "type": "INSURANCE",
+   "description": "Purchase Protection Worth 1 Lakh",
+   "offer": "Purchase protection worth 1 Lakh.",
+   "duration": "Ongoing",
+   "howToAvail": "To claim this insurance, report the incident to Axis Bank Customer Care at 1860 419 5555 or 1860 500 5555, or email email.services@axisbank.com.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Insurance.webp"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "EazyDiner",
+   "child": "15% off via Dining Delights Program"
+  },
+  {
+   "mainTitle": "Insurance",
+   "child": "Purchase Protection Worth 1 Lakh"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "2 per quarter"
+    ],
+    "eligibility": [
+     "Minimum spends of ₹50k in previous 3 calendar months."
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "2 per quarter",
+    "visitsPerCycle": "2",
+    "duration": "quarter",
+    "eligibility": "Minimum spends of ₹50k in previous 3 calendar months.|Maximum 8 visits per year are applicable"
+   }
+  ],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 250000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "10,000 EDGE RPs.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 500000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 1,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 1,
+  "earn_rules_with_category": 0,
+  "benefits_total": 2,
+  "benefits_structured": 2,
+  "lounge_total": 1,
+  "lounge_structured": 1,
+  "milestones_count": 2,
+  "categories_tested": 16,
+  "categories_earning": 7
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 5.0,
+   "reward_worth_inr": 100,
+   "reward_points": 500,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 5.0,
+   "reward_worth_inr": 100,
+   "reward_points": 500,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 5.0,
+   "reward_worth_inr": 100,
+   "reward_points": 500,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 5.0,
+   "reward_worth_inr": 100,
+   "reward_points": 500,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 5.0,
+   "reward_worth_inr": 100,
+   "reward_points": 500,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 5.0,
+   "reward_worth_inr": 100,
+   "reward_points": 500,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 5.0,
+   "reward_worth_inr": 100,
+   "reward_points": 500,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 7,
+  "max_rate_pct": 1.0,
+  "base_rate_pct": 1.0,
+  "point_value_inr": 0.2
+ }
+}

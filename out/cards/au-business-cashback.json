@@ -1,0 +1,363 @@
+{
+ "slug": "au-business-cashback",
+ "card_id": 8973,
+ "title": "AU Business Cashback credit card",
+ "display_name": "Business Cashback",
+ "issuer": {
+  "slug": "au",
+  "name": "AU"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": 99,
+  "renewal": 99,
+  "addon": 0,
+  "forex_markup_pct": 3.49,
+  "apr_pct": 45
+ },
+ "return_percentage": "1% to 2%",
+ "overview": "An enhanced version of Altura that delivers higher cashback and accelerated rewards on shopping and dining, helping users maximize value from everyday spends.",
+ "best_suited": [
+  "Cashback"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "cashback"
+ ],
+ "benefit_types": [
+  "INSURANCE",
+  "DINING_ORDER_IN"
+ ],
+ "lounge_types": [
+  "RAILWAY_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/BUSINESS%20CASHBACK.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/AU.png"
+ },
+ "apply_link": "https://cconboarding.au.bank.in/auccself/#/landing?utm_source=choiceconnect&utm_medium=sms-tpp&utm_campaign=989908-sms-C0039251_C2P",
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 1,
+    "per": 100,
+    "currency": "INR",
+    "unit": "Cashback"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  },
+  {
+   "name": "Transportation & Tolls",
+   "category": null
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Business",
+   "type": "INSURANCE",
+   "description": "Complimentary Business Insurance.",
+   "offer": "Cash in Counter: INR 25,000.|Cash in Transit & Public Liability: INR 1.5 Lacs each.|Fire Insurance Burglary & Housebreaking: INR 2 Lacs each.",
+   "duration": "Ongoing",
+   "howToAvail": "Contact AU Small Finance Bank's customer care at 1800-120-130-130 or email creditcard.support@aubank.in. They will guide you through the claim process and inform you about the necessary documentation.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Insurance.webp"
+  },
+  {
+   "name": "EazyDiner",
+   "type": "DINING_ORDER_IN",
+   "description": "Upto ₹500 off",
+   "offer": "Flat Rs. 500 Instant Discount Min. bill of ₹6000.|Valid once per card per month",
+   "duration": null,
+   "howToAvail": null,
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/EasyDiner.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Business",
+   "child": "Complimentary Business Insurance."
+  },
+  {
+   "mainTitle": "EazyDiner",
+   "child": "Upto ₹500 off"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Railway lounge",
+    "limit": [
+     "2 per quarter"
+    ],
+    "eligibility": [
+     "8 complimentary railway lounge access per year."
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Railway Lounges",
+    "tier": "Railway lounge",
+    "limit": "2 per quarter",
+    "visitsPerCycle": "2",
+    "duration": "quarter",
+    "eligibility": "8 complimentary railway lounge access per year."
+   }
+  ],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 10000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 1,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 1,
+  "earn_rules_with_category": 0,
+  "benefits_total": 2,
+  "benefits_structured": 2,
+  "lounge_total": 1,
+  "lounge_structured": 1,
+  "milestones_count": 1,
+  "categories_tested": 16,
+  "categories_earning": 11
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 100,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 11,
+  "max_rate_pct": 1.0,
+  "base_rate_pct": 1.0,
+  "point_value_inr": null
+ }
+}

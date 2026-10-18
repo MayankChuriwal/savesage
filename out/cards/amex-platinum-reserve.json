@@ -1,0 +1,1051 @@
+{
+ "slug": "amex-platinum-reserve",
+ "card_id": 430,
+ "title": "Amex Platinum Reserve credit card",
+ "display_name": "Platinum Reserve",
+ "issuer": {
+  "slug": "amex",
+  "name": "Amex"
+ },
+ "network": "AMEX",
+ "fees": {
+  "joining": 10000,
+  "renewal": 10000,
+  "addon": 0,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 42
+ },
+ "return_percentage": "2% to 5%",
+ "overview": "A premium card featuring 5x Membership Rewards points on travel and dining spends, complimentary lounge access, and milestone rewards worth ₹50,000 annually. Cardholders also enjoy concierge services and exclusive access to global Amex Offers.",
+ "best_suited": [
+  "Experience",
+  "Travel Booking"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "travel-booking"
+ ],
+ "benefit_types": [
+  "MEMBERSHIP",
+  "CONCIERGE",
+  "DINING_ORDER_IN",
+  "GOLF",
+  "INSURANCE"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE",
+  "INTERNATIONAL_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/PLATINUM%20RESERVE.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/AMEX.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 1,
+    "per": 50,
+    "currency": "INR",
+    "unit": "Membership Rewards (MRs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Tata Cliq Luxury",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 50,
+    "currency": "INR",
+    "unit": "MRs"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Tata Cliq Luxury",
+   "booking_channel": null,
+   "cap": "There is no minimum spend required and no maximum cap on the Membership Rewards Points you can earn under this offer, and it can be availed multiple times during the offer period.",
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "Dyson",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 50,
+    "currency": "INR",
+    "unit": "MRs"
+   },
+   "category": "Online",
+   "subcategory": "Shopping",
+   "merchant_raw": "Dyson",
+   "booking_channel": null,
+   "cap": "There is no minimum spend required and no maximum cap on the Membership Rewards Points you can earn under this offer, and it can be availed multiple times during the offer period.",
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "api",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "Meatigo",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Tata Cliq Fashion",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Darveys",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Online",
+   "subcategory": "Shopping",
+   "merchant_raw": "Darveys",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Air India",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Travel",
+   "subcategory": "Direct Airlines",
+   "merchant_raw": "Air India",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Koskii",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Lenovo",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "MakeMyTrip",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "MakeMyTrip via Amex Rewards Multiplier",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Myntra",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Online",
+   "subcategory": "E-Commerce",
+   "merchant_raw": "Myntra",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Nykaa Fashion",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Puma",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Tanishq",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Jewellery",
+   "subcategory": "Jewellery",
+   "merchant_raw": "Tanishq",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Aurelia",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Wellbeing Nutrition",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Online",
+   "subcategory": "Personal Care",
+   "merchant_raw": "Wellbeing Nutrition via Amex Rewards Multiplier",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Forest Essentials",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "IGP",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Acer",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Online",
+   "subcategory": "Electronics",
+   "merchant_raw": "Acer via Amex Rewards Multiplier",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Ajio",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Online",
+   "subcategory": "Shopping",
+   "merchant_raw": "Ajio via Amex Rewards Multiplier",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Apple",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Online",
+   "subcategory": "Electronics",
+   "merchant_raw": "Apple via Amex Rewards Multiplier",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Farfetch",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Online",
+   "subcategory": "Shopping",
+   "merchant_raw": "Farfetch via Amex Rewards Multiplier",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Amex Shopwise",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Croma",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Croma",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Flipkart",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Online",
+   "subcategory": "E-Commerce",
+   "merchant_raw": "Flipkart",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Mokobara",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Nykaa",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Uniqlo",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 50,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Online",
+   "subcategory": "Fashion",
+   "merchant_raw": "Uniqlo via Amex Rewards Multiplier",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹50 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  },
+  {
+   "name": "HPCL",
+   "category": null
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "UPI",
+   "category": null
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Accor Plus",
+   "type": "MEMBERSHIP",
+   "description": "Accor Plus membership",
+   "offer": null,
+   "duration": "Ongoing",
+   "howToAvail": "To avail your Accor Plus membership, check your email for the activation link and membership number. Visit the Accor Plus activation page, enter your membership number and registered email, and follow the prompts to activate. Download the Accor ALL app and log in to access your digital membership card and benefits.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/Accor.png"
+  },
+  {
+   "name": "Concierge",
+   "type": "CONCIERGE",
+   "description": "Platinum Concierge",
+   "offer": "Platinum Concierge offers a variety of services, including the delivery of flowers and gifts to someone special, booking movie tickets, arranging a round of golf, or even booking a rejuvenating spa session at participating partners. Additionally, they can assist with making dining reservations, ensuring a seamless and personalized experience.",
+   "duration": null,
+   "howToAvail": "Please call Platinum Concierge Services on 0124-6736660/ 1800-419-1030 (Toll free from MTNL, BSNL landlines) - press option 1 for Card Assistance or 3 for Concierge",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Experience.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Accor Plus",
+   "child": "Accor Plus membership"
+  },
+  {
+   "mainTitle": "Concierge",
+   "child": "Platinum Concierge"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "3 per quarter"
+    ],
+    "eligibility": [
+     "No explicit spend condition"
+    ]
+   },
+   {
+    "maintitle": "International lounge",
+    "limit": [
+     "2 per year"
+    ],
+    "eligibility": [
+     ""
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "3 per quarter",
+    "visitsPerCycle": "3",
+    "duration": "quarter",
+    "eligibility": "No explicit spend condition"
+   }
+  ],
+  "airports": 12
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 0,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Get a Welcome Gift of 11,000 Bonus Membership Rewards Points.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 50000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Flipkart, BookMyShow, or other brand vouchers worth ₹1,000.",
+   "milestoneType": "MONTH"
+  },
+  {
+   "milestoneNumber": 3,
+   "spent": 1000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 28,
+  "earn_rules_structured": 3,
+  "earn_rules_emitted": 28,
+  "earn_rules_with_category": 13,
+  "benefits_total": 9,
+  "benefits_structured": 2,
+  "lounge_total": 2,
+  "lounge_structured": 1,
+  "milestones_count": 3,
+  "categories_tested": 16,
+  "categories_earning": 12
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 5.76,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 576,
+   "reward_points": 600,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 1.92,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 192,
+   "reward_points": 200,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 1.92,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 192,
+   "reward_points": 200,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 5.76,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 576,
+   "reward_points": 600,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 1.92,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 192,
+   "reward_points": 200,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 1.92,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 192,
+   "reward_points": 200,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 9.6,
+   "points_per_100": 10.0,
+   "reward_worth_inr": 960,
+   "reward_points": 1000,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 5.76,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 576,
+   "reward_points": 600,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 9.6,
+   "points_per_100": 10.0,
+   "reward_worth_inr": 960,
+   "reward_points": 1000,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 1.92,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 192,
+   "reward_points": 200,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 1.92,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 192,
+   "reward_points": 200,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 1.92,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 192,
+   "reward_points": 200,
+   "point_value_inr": 0.96,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 12,
+  "max_rate_pct": 9.6,
+  "base_rate_pct": 1.92,
+  "point_value_inr": 0.96
+ }
+}

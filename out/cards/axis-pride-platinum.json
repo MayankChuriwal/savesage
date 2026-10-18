@@ -1,0 +1,350 @@
+{
+ "slug": "axis-pride-platinum",
+ "card_id": 66,
+ "title": "Axis Pride Platinum credit card",
+ "display_name": "Pride Platinum",
+ "issuer": {
+  "slug": "axis",
+  "name": "Axis"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": null,
+  "renewal": 250,
+  "addon": 0,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 55.55
+ },
+ "return_percentage": "0.5% to 1%",
+ "overview": "A card tailored for defense and government employees, offering rewards on essential categories, fee waivers, and a patriotic design symbolizing pride and recognition.",
+ "best_suited": [
+  "Catalogue Products",
+  "Experience"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "catalogue-products"
+ ],
+ "benefit_types": [
+  "DINING_ORDER_IN"
+ ],
+ "lounge_types": [],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/PRIDE%20PLATINUM.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/AXIS.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 4,
+    "per": 200,
+    "currency": "INR",
+    "unit": "Edge Rewards (ERs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 200,
+   "raw_text": "Earn 4 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  },
+  {
+   "name": "Government",
+   "category": "Government"
+  },
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  },
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "EazyDiner",
+   "type": "DINING_ORDER_IN",
+   "description": "15% off via Dining Delights Program",
+   "offer": "15% off up to INR 500 on EazyDiner.|Minimum Order Value INR 2500",
+   "duration": "Ongoing",
+   "howToAvail": "Select the restaurant to be paid on the EazyDiner app.|Enter the amount, and select the offer.|Discount will be applied and net payment will be required to be made.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/EasyDiner.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "EazyDiner",
+   "child": "15% off via Dining Delights Program"
+  }
+ ],
+ "lounge": {
+  "tiers": [],
+  "structured": [],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 5000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "100 Edge RPs.",
+   "milestoneType": "MONTH"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 20000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 1,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 1,
+  "earn_rules_with_category": 0,
+  "benefits_total": 1,
+  "benefits_structured": 1,
+  "lounge_total": 0,
+  "lounge_structured": 0,
+  "milestones_count": 2,
+  "categories_tested": 16,
+  "categories_earning": 9
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.4,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 40,
+   "reward_points": 200,
+   "point_value_inr": 0.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 9,
+  "max_rate_pct": 0.4,
+  "base_rate_pct": 0.4,
+  "point_value_inr": 0.2
+ }
+}

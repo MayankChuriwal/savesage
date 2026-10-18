@@ -1,0 +1,732 @@
+{
+ "slug": "idfc-wealth",
+ "card_id": 348,
+ "title": "IDFC Wealth credit card",
+ "display_name": "Wealth",
+ "issuer": {
+  "slug": "idfc",
+  "name": "IDFC"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": null,
+  "renewal": 0,
+  "addon": 499,
+  "forex_markup_pct": 1.5,
+  "apr_pct": 46.2
+ },
+ "return_percentage": "2% to 5%",
+ "overview": "A premium First Wealth card providing luxury lifestyle rewards, global lounge access, concierge support, and milestone benefits for affluent customers.",
+ "best_suited": [
+  "Experience",
+  "Travel Booking",
+  "Hotel Transfer"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "catalogue-products",
+  "travel-booking"
+ ],
+ "benefit_types": [
+  "CONCIERGE",
+  "MOVIES_AND_EVENTS",
+  "TRAVEL",
+  "GOLF",
+  "INSURANCE"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE",
+  "ADD_ON_CARD_DOMESTIC_LOUNGE",
+  "INTERNATIONAL_LOUNGE",
+  "ADD_ON_CARD_INTERNATIONAL_LOUNGE",
+  "RAILWAY_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/FIRST%20WEALTH.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/IDFC.png"
+ },
+ "apply_link": "https://my.idfcfirst.bank.in/apply/cc?utm_source=partner&utm_medium=VitrakTechnologies&utm_campaign=C2P01",
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 3,
+    "per": 200,
+    "currency": "INR",
+    "unit": "Reward Points (RPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Hotels via IDFC App",
+   "is_base_rate": false,
+   "rate": {
+    "value": 69,
+    "per": 200,
+    "currency": "INR",
+    "unit": "RP"
+   },
+   "category": "Travel",
+   "subcategory": "Hotels",
+   "merchant_raw": "Hotels via IDFC",
+   "booking_channel": "IDFC App",
+   "cap": "Get 3 Base points + 66 Bonus Reward Points on transactions completed on your Credit Card on Flight bookings done via “Travel & Shop” section on IDFC FIRST Bank Mobile App.|A maximum of 8,000 Bonus Reward Points can be earned per calendar month.",
+   "cap_cycle": "calendar",
+   "min_txn": null,
+   "raw_text": "Earn 69 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "api",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "Flights via IDFC App",
+   "is_base_rate": false,
+   "rate": {
+    "value": 29,
+    "per": 200,
+    "currency": "INR",
+    "unit": "RP"
+   },
+   "category": "Travel",
+   "subcategory": "Flights",
+   "merchant_raw": "Flights via IDFC",
+   "booking_channel": "IDFC App",
+   "cap": "Get 3 Base points + 26 Bonus Reward Points on transactions completed on your Credit Card on Flight bookings done via “Travel & Shop” section on IDFC FIRST Bank Mobile App.|A maximum of 8,000 Bonus Reward Points can be earned per calendar month.",
+   "cap_cycle": "calendar",
+   "min_txn": null,
+   "raw_text": "Earn 29 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "api",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "Dining",
+   "is_base_rate": false,
+   "rate": {
+    "value": 10,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "F&B",
+   "subcategory": "Dining",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 10 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "International",
+   "is_base_rate": false,
+   "rate": {
+    "value": 10,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "International",
+   "subcategory": "International",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 10 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Travel",
+   "is_base_rate": false,
+   "rate": {
+    "value": 10,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Travel",
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 10 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "name_matches_taxonomy",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Wallets",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Wallets",
+   "subcategory": "Wallets",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Rent",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Rent",
+   "subcategory": "Rent",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Government",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Government",
+   "subcategory": "Government",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Education",
+   "is_base_rate": false,
+   "rate": {
+    "value": 3,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Education",
+   "subcategory": "Education",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 3 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Insurance",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Insurance",
+   "subcategory": "Insurance",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Utilities",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Utilities",
+   "subcategory": "Utilities",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "FasTag",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Railways",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Railways",
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "name_matches_taxonomy",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "UPI",
+   "category": "UPI"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Concierge",
+   "type": "CONCIERGE",
+   "description": "Concierge",
+   "offer": "Concierge service to help you book your flights, hotels, dining, and other experiences.",
+   "duration": "Ongoing",
+   "howToAvail": "You may dial 1800 210 0298 (toll-free) or 022-42320298 for concierge assistance.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Experience.png"
+  },
+  {
+   "name": "District",
+   "type": "MOVIES_AND_EVENTS",
+   "description": "Buy One Get One Free",
+   "offer": "B1G1 offer on movie tickets upto ₹250 on District mobile app (valid twice per month).",
+   "duration": "Ongoing",
+   "howToAvail": "To avail this benefit, use the District app to book movie tickets. Apply your IDFC First Wealth credit card for Buy One Get One Free (B1G1) offer up to ₹125, valid twice per month. For assistance, contact IDFC FIRST Bank customer care at 1860 267 3333.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": 2,
+   "movieDuration": "month",
+   "imageUrl": "https://storage.googleapis.com/savesagemainassets/pointsearnlogonew/District.webp"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Concierge",
+   "child": "Concierge"
+  },
+  {
+   "mainTitle": "District",
+   "child": "Buy One Get One Free"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "1 per quarter"
+    ],
+    "eligibility": [
+     "Spend 20,000 in a month."
+    ]
+   },
+   {
+    "maintitle": "Add on card domestic lounge",
+    "limit": [
+     "1 per quarter"
+    ],
+    "eligibility": [
+     ""
+    ]
+   },
+   {
+    "maintitle": "International lounge",
+    "limit": [
+     "1 per quarter"
+    ],
+    "eligibility": [
+     "spending ₹20,000 or more in the preceding month"
+    ]
+   },
+   {
+    "maintitle": "Add on card international lounge",
+    "limit": [
+     "1 per quarter"
+    ],
+    "eligibility": [
+     ""
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "1 per quarter",
+    "visitsPerCycle": "1",
+    "duration": "quarter",
+    "eligibility": "Spend ₹20,000 or more in the preceding month"
+   },
+   {
+    "name": "Add-on Card Domestic Lounges",
+    "tier": "Add on card domestic lounge",
+    "limit": "1 per quarter",
+    "visitsPerCycle": "1",
+    "duration": "quarter",
+    "eligibility": "As per primary card."
+   },
+   {
+    "name": "International Lounges",
+    "tier": "International lounge",
+    "limit": "1 per quarter",
+    "visitsPerCycle": "1",
+    "duration": "quarter",
+    "eligibility": "You will be issued a Dreamfolks Card|Spend ₹20,000 or more in the preceding quarter"
+   }
+  ],
+  "airports": 34
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 1,
+   "startAmount": 0,
+   "duration": 30,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Enjoy 5% cashback of up to ₹1,000This offer is applicable only on first EMI conversion within first 30 days of card generation.",
+   "milestoneType": "DAYS"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 5000,
+   "startAmount": 0,
+   "duration": 30,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "₹500 gift voucher from choice of brands like - Amazon, Bigbasket, Uber and Lifestyle",
+   "milestoneType": "DAYS"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 14,
+  "earn_rules_structured": 3,
+  "earn_rules_emitted": 14,
+  "earn_rules_with_category": 12,
+  "benefits_total": 9,
+  "benefits_structured": 2,
+  "lounge_total": 5,
+  "lounge_structured": 3,
+  "milestones_count": 2,
+  "categories_tested": 16,
+  "categories_earning": 14
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 8.625,
+   "points_per_100": 34.5,
+   "reward_worth_inr": 862.5,
+   "reward_points": 3450,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 1.25,
+   "points_per_100": 5.0,
+   "reward_worth_inr": 125,
+   "reward_points": 500,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.375,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 37.5,
+   "reward_points": 150,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.375,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 37.5,
+   "reward_points": 150,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.375,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 37.5,
+   "reward_points": 150,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.125,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 12.5,
+   "reward_points": 50,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.375,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 37.5,
+   "reward_points": 150,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 1.25,
+   "points_per_100": 5.0,
+   "reward_worth_inr": 125,
+   "reward_points": 500,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.375,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 37.5,
+   "reward_points": 150,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.125,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 12.5,
+   "reward_points": 50,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.375,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 37.5,
+   "reward_points": 150,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.375,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 37.5,
+   "reward_points": 150,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.375,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 37.5,
+   "reward_points": 150,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.375,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 37.5,
+   "reward_points": 150,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 14,
+  "max_rate_pct": 8.625,
+  "base_rate_pct": 0.125,
+  "point_value_inr": 0.25
+ }
+}

@@ -1,0 +1,956 @@
+{
+ "slug": "hdfc-biz-black-metal",
+ "card_id": 3067,
+ "title": "HDFC Biz Black Metal credit card",
+ "display_name": "Biz Black Metal",
+ "issuer": {
+  "slug": "hdfc",
+  "name": "HDFC"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": 10000,
+  "renewal": 10000,
+  "addon": 0,
+  "forex_markup_pct": 2,
+  "apr_pct": 23.88
+ },
+ "return_percentage": "2% to 5%",
+ "overview": "A super-premium metal business card designed for entrepreneurs and corporates, offering luxury travel perks, milestone rewards, concierge services, and high reward rates on business spends.",
+ "best_suited": [
+  "Cashback",
+  "Experience"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": true,
+  "is_popular": true,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "cashback",
+  "catalogue-products",
+  "travel-booking"
+ ],
+ "benefit_types": [
+  "CONCIERGE",
+  "DINING_ORDER_IN",
+  "GOLF",
+  "INSURANCE",
+  "TRAVEL",
+  "OTHERS"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE",
+  "INTERNATIONAL_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/BIZ%20BLACK%20METAL.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/HDFC.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 5,
+    "per": 150,
+    "currency": "INR",
+    "unit": "Reward Points (RPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 150,
+   "raw_text": "Earn 5 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Hotels via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 50,
+    "per": 150,
+    "currency": "INR",
+    "unit": "RPs"
+   },
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "Hotels via SmartBuy",
+   "booking_channel": "SmartBuy",
+   "cap": "A maximum of 10,000 accelerated Reward Points can be earned cumulatively on SmartBuy in a calendar month.",
+   "cap_cycle": "calendar",
+   "min_txn": 150,
+   "raw_text": "Earn 50 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "api",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "Jockey via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 50,
+    "per": 150,
+    "currency": "INR",
+    "unit": "RPs"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Jockey via SmartBuy",
+   "booking_channel": "SmartBuy",
+   "cap": "A maximum of 10,000 accelerated Reward Points can be earned cumulatively on SmartBuy in a calendar month.",
+   "cap_cycle": "calendar",
+   "min_txn": 150,
+   "raw_text": "Earn 50 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "IGP via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 50,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "IGP via SmartBuy",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 50 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "PharmEasy via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 50,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "PharmEasy via SmartBuy",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 50 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Redbus via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Redbus",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "parsed_from_name",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Flights via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Flights",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "parsed_from_name",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Holidays via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Holidays",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "parsed_from_name",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Government",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Government",
+   "subcategory": "Government",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Apple via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Apple",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "parsed_from_name",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Myntra via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Myntra",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "parsed_from_name",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Duty Free (Adani One) via Smartbuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Duty Free (Adani One)",
+   "booking_channel": "Smartbuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "parsed_from_name",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "MakeMyTrip MyBiz",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "MakeMyTrip",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Drivado via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Drivado",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "parsed_from_name",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Nuclei via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Nuclei",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "parsed_from_name",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "PayZapp",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Gift Cards via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 15,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "GiftCards",
+   "subcategory": "Gift Cards",
+   "merchant_raw": "Gift Cards via SmartBuy",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 15 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Trains via SmartBuy",
+   "is_base_rate": false,
+   "rate": {
+    "value": 15,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Trains via SmartBuy",
+   "booking_channel": "SmartBuy",
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 15 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Grocery",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "F&B",
+   "subcategory": "Grocery",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Utilities",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Utilities",
+   "subcategory": "Utilities",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Insurance",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Insurance",
+   "subcategory": "Insurance",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "International",
+   "is_base_rate": false,
+   "rate": {
+    "value": 5,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "International",
+   "subcategory": "International",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  },
+  {
+   "name": "UPI",
+   "category": "UPI"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "Education",
+   "category": "Education"
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Concierge",
+   "type": "CONCIERGE",
+   "description": "Global personal Concierge",
+   "offer": "Customize your business, travel and entertainment experiences with Global Concierge Assistance.",
+   "duration": "Ongoing",
+   "howToAvail": "Toll Free: 1800 266 3310\rLandline: 022-6171 7606 (For customers travelling overseas)\rEmail: bizblack.support@smartbuyoffers.co",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Experience.png"
+  },
+  {
+   "name": "Dining",
+   "type": "DINING_ORDER_IN",
+   "description": "20% Discount",
+   "offer": "Up to 20% discount on partner restaurants via Dineout when using your HDFC Bank Credit Card.",
+   "duration": "Ongoing",
+   "howToAvail": "Pay via Dineout using your HDFC Credit Card.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Dinning.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Concierge",
+   "child": "Global personal Concierge"
+  },
+  {
+   "mainTitle": "Dining",
+   "child": "20% Discount"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "Any transactions done last month irrespective of amount."
+    ]
+   },
+   {
+    "maintitle": "International lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "Any transactions done last month irrespective of amount."
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "Unlimited",
+    "visitsPerCycle": "Unlimited",
+    "duration": null,
+    "eligibility": "Any transactions done last month irrespective of amount."
+   }
+  ],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 150000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "CALENDAR",
+   "benefits": "Get Club Marriott Renewal Membership + Taj Stay voucher worth ₹5000",
+   "milestoneType": "QUARTER"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 500000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "CALENDAR",
+   "benefits": "SmartBuy Flight / Taj Stay Voucher worth ₹5000. (On all retail spends excluding rent and petrol).",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 3,
+   "spent": 750000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 4,
+   "spent": 1000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "CALENDAR",
+   "benefits": "Additional SmartBuy Flight / Taj Stay Voucher worth ₹5000. (On all retail spends excluding rent and petrol).",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 5,
+   "spent": 1500000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "CALENDAR",
+   "benefits": "Additional SmartBuy Flight / Taj Stay Voucher worth ₹5000. (On all retail spends excluding rent and petrol).",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 6,
+   "spent": 2000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Additional SmartBuy Flight / Taj Stay Voucher worth ₹5000. (On all retail spends excluding rent and petrol).",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 22,
+  "earn_rules_structured": 3,
+  "earn_rules_emitted": 22,
+  "earn_rules_with_category": 8,
+  "benefits_total": 6,
+  "benefits_structured": 2,
+  "lounge_total": 2,
+  "lounge_structured": 1,
+  "milestones_count": 6,
+  "categories_tested": 16,
+  "categories_earning": 11
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 20.004,
+   "points_per_100": 16.67,
+   "reward_worth_inr": 2000.4,
+   "reward_points": 1667,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 3.996,
+   "points_per_100": 3.33,
+   "reward_worth_inr": 399.6,
+   "reward_points": 333,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 3.996,
+   "points_per_100": 3.33,
+   "reward_worth_inr": 399.6,
+   "reward_points": 333,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 3.996,
+   "points_per_100": 3.33,
+   "reward_worth_inr": 399.6,
+   "reward_points": 333,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 3.996,
+   "points_per_100": 3.33,
+   "reward_worth_inr": 399.6,
+   "reward_points": 333,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 3.996,
+   "points_per_100": 3.33,
+   "reward_worth_inr": 399.6,
+   "reward_points": 333,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 3.996,
+   "points_per_100": 3.33,
+   "reward_worth_inr": 399.6,
+   "reward_points": 333,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 12.0,
+   "points_per_100": 10.0,
+   "reward_worth_inr": 1200,
+   "reward_points": 1000,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 3.996,
+   "points_per_100": 3.33,
+   "reward_worth_inr": 399.6,
+   "reward_points": 333,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 3.996,
+   "points_per_100": 3.33,
+   "reward_worth_inr": 399.6,
+   "reward_points": 333,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 20.004,
+   "points_per_100": 16.67,
+   "reward_worth_inr": 2000.4,
+   "reward_points": 1667,
+   "point_value_inr": 1.2,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 11,
+  "max_rate_pct": 20.004,
+  "base_rate_pct": 3.996,
+  "point_value_inr": 1.2
+ }
+}

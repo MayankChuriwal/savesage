@@ -1,0 +1,1147 @@
+{
+ "rule_name_to_taxonomy": {
+  "International": {
+   "category": "International",
+   "subcategory": "International",
+   "merchant_raw": null
+  },
+  "Education": {
+   "category": "Education",
+   "subcategory": "Education",
+   "merchant_raw": null
+  },
+  "Grocery": {
+   "category": "F&B",
+   "subcategory": "Grocery",
+   "merchant_raw": null
+  },
+  "Hotels via iShop": {
+   "category": "Travel",
+   "subcategory": "Hotel",
+   "merchant_raw": "Hotels via iShop"
+  },
+  "Vouchers via iShop": {
+   "category": "Shopping",
+   "subcategory": "Vouchers",
+   "merchant_raw": "Vouchers via iShop"
+  },
+  "Amazon Hotels (Prime)": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Hotels via Amazon"
+  },
+  "Amazon Flights (Prime)": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "Flights via Amazon"
+  },
+  "Departmental Stores": {
+   "category": "Shopping",
+   "subcategory": "Shopping",
+   "merchant_raw": null
+  },
+  "Utilities": {
+   "category": "Utilities",
+   "subcategory": "Utilities",
+   "merchant_raw": null
+  },
+  "Government": {
+   "category": "Government",
+   "subcategory": "Government",
+   "merchant_raw": null
+  },
+  "Insurance": {
+   "category": "Insurance",
+   "subcategory": "Insurance",
+   "merchant_raw": null
+  },
+  "Bus via iShop": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Bus via iShop"
+  },
+  "Intermiles": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Intermiles"
+  },
+  "Intermiles (Etihad)": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Intermiles (Etihad)"
+  },
+  "MakeMyTrip Hotels": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "Hotels via MakeMyTrip"
+  },
+  "Flights": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": null
+  },
+  "iShop": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "iShop"
+  },
+  "Travel Edge <= ₹2L monthly": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "Travel Edge"
+  },
+  "Travel Edge > ₹2L monthly": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "Travel Edge"
+  },
+  "Education (Third-Party)": {
+   "category": "Education",
+   "subcategory": "Education",
+   "merchant_raw": null
+  },
+  "Myntra": {
+   "category": "Online",
+   "subcategory": "E-Commerce",
+   "merchant_raw": "Myntra"
+  },
+  "Cleartrip": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "Cleartrip"
+  },
+  "Utilities via Google Pay": {
+   "category": "Utilities",
+   "subcategory": "Utilities",
+   "merchant_raw": "Utilities via Google Pay"
+  },
+  "Swiggy": {
+   "category": "F&B",
+   "subcategory": "Order In",
+   "merchant_raw": "Swiggy"
+  },
+  "Airtel Thanks (DTH, Wifi, Mobile)": {
+   "category": "Utilities",
+   "subcategory": "Utilities",
+   "merchant_raw": "Airtel Thanks"
+  },
+  "District": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "District"
+  },
+  "BigBasket": {
+   "category": "F&B",
+   "subcategory": "Grocery",
+   "merchant_raw": "BigBasket"
+  },
+  "Samsung": {
+   "category": "Online",
+   "subcategory": "Electronics",
+   "merchant_raw": "Samsung"
+  },
+  "Entertainment": {
+   "category": "Entertainment",
+   "subcategory": "Entertainment",
+   "merchant_raw": null
+  },
+  "Food Delivery": {
+   "category": "F&B",
+   "subcategory": "Order In",
+   "merchant_raw": null
+  },
+  "IOCL": {
+   "category": "Fuel",
+   "subcategory": "Fuel",
+   "merchant_raw": "Indian Oil"
+  },
+  "Amazon": {
+   "category": "Online",
+   "subcategory": "Shopping",
+   "merchant_raw": "Amazon"
+  },
+  "BookMyShow": {
+   "category": "Entertainment",
+   "subcategory": "Entertainment",
+   "merchant_raw": "BookMyShow"
+  },
+  "Jockey via SmartBuy": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Jockey via SmartBuy"
+  },
+  "PharmEasy via SmartBuy": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "PharmEasy via SmartBuy"
+  },
+  "Tanishq": {
+   "category": "Jewellery",
+   "subcategory": "Jewellery",
+   "merchant_raw": "Tanishq"
+  },
+  "Tata 1MG": {
+   "category": "Online",
+   "subcategory": "Healthcare",
+   "merchant_raw": "Tata 1MG"
+  },
+  "Tata Neu": {
+   "category": "Online",
+   "subcategory": "E-Commerce",
+   "merchant_raw": "Tata Neu"
+  },
+  "IHCL": {
+   "category": "Travel",
+   "subcategory": "Direct Hotels",
+   "merchant_raw": "Taj"
+  },
+  "IRCTC via SmartBuy": {
+   "category": "Online",
+   "subcategory": "E-Commerce",
+   "merchant_raw": "IRCTC via SmartBuy"
+  },
+  "IRCTC": {
+   "category": "Travel",
+   "subcategory": "Railways",
+   "merchant_raw": "IRCTC"
+  },
+  "Hotels via SmartBuy": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "Hotels via SmartBuy"
+  },
+  "IGP via SmartBuy": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "IGP via SmartBuy"
+  },
+  "Oyo": {
+   "category": "Travel",
+   "subcategory": "Direct Hotels",
+   "merchant_raw": "Oyo"
+  },
+  "Paytm (Movies and Utilities)": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Movies and Utilities via Paytm"
+  },
+  "Paytm": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Paytm"
+  },
+  "Supermarket": {
+   "category": "Shopping",
+   "subcategory": "Shopping",
+   "merchant_raw": null
+  },
+  "Dining": {
+   "category": "F&B",
+   "subcategory": "Dining",
+   "merchant_raw": null
+  },
+  "Fuel": {
+   "category": "Fuel",
+   "subcategory": "Fuel",
+   "merchant_raw": null
+  },
+  "Gift Cards via SmartBuy": {
+   "category": "GiftCards",
+   "subcategory": "Gift Cards",
+   "merchant_raw": "Gift Cards via SmartBuy"
+  },
+  "Movies": {
+   "category": "Entertainment",
+   "subcategory": "Entertainment",
+   "merchant_raw": null
+  },
+  "Pharmacy": {
+   "category": "Healthcare",
+   "subcategory": "Healthcare",
+   "merchant_raw": null
+  },
+  "BPCL": {
+   "category": "Fuel",
+   "subcategory": "Fuel",
+   "merchant_raw": "Bharat Petroleum"
+  },
+  "IRCTC (AC1, AC2, AC3, AC CC)": {
+   "category": "Travel",
+   "subcategory": "Railways",
+   "merchant_raw": "IRCTC"
+  },
+  "IRCTC - E-catering": {
+   "category": "Travel",
+   "subcategory": "Railways",
+   "merchant_raw": "IRCTC"
+  },
+  "Aditya Birla Stores": {
+   "category": "Offline",
+   "subcategory": "Shopping",
+   "merchant_raw": "Aditya Birla Stores"
+  },
+  "Online Travel Agencies": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": null
+  },
+  "Mumbai Metro Recharge": {
+   "category": "Travel",
+   "subcategory": "Metro",
+   "merchant_raw": "Mumbai Metro"
+  },
+  "Tata Stores": {
+   "category": "Offline",
+   "subcategory": "Shopping",
+   "merchant_raw": "Tata"
+  },
+  "FabIndia Store": {
+   "category": "Offline",
+   "subcategory": "Shopping",
+   "merchant_raw": "FabIndia Store"
+  },
+  "Max": {
+   "category": "Online",
+   "subcategory": "Fashion",
+   "merchant_raw": "Max"
+  },
+  "Spar": {
+   "category": "F&B",
+   "subcategory": "Grocery",
+   "merchant_raw": "Spar"
+  },
+  "Homecentre": {
+   "category": "Offline",
+   "subcategory": "Shopping",
+   "merchant_raw": "Homecentre"
+  },
+  "Apollo": {
+   "category": "Healthcare",
+   "subcategory": "Healthcare",
+   "merchant_raw": "Apollo"
+  },
+  "Flights via iShop": {
+   "category": "Travel",
+   "subcategory": "Flight",
+   "merchant_raw": "Flights via iShop"
+  },
+  "Marriott Hotels": {
+   "category": "Travel",
+   "subcategory": "Direct Hotels",
+   "merchant_raw": "Marriott"
+  },
+  "IndiGo": {
+   "category": "Travel",
+   "subcategory": "Direct Airlines",
+   "merchant_raw": "IndiGo"
+  },
+  "HSBC - Hotels": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Hotels via HSBC"
+  },
+  "HSBC - Flights": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Flights via HSBC"
+  },
+  "Telecom & Cable": {
+   "category": "Telecom & Cable",
+   "subcategory": "Telecom & Cable",
+   "merchant_raw": null
+  },
+  "Hotels via IDFC App": {
+   "category": "Travel",
+   "subcategory": "Hotels",
+   "merchant_raw": "Hotels via IDFC"
+  },
+  "Flights via IDFC App": {
+   "category": "Travel",
+   "subcategory": "Flights",
+   "merchant_raw": "Flights via IDFC"
+  },
+  "HPCL": {
+   "category": "Fuel",
+   "subcategory": "Fuel",
+   "merchant_raw": "HPCL"
+  },
+  "Rent": {
+   "category": "Rent",
+   "subcategory": "Rent",
+   "merchant_raw": null
+  },
+  "Intermiles.com (Weekends)": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Intermiles"
+  },
+  "Etihad Airways": {
+   "category": "Travel",
+   "subcategory": "Direct Airlines",
+   "merchant_raw": "Etihad Airways"
+  },
+  "Base Rewards": {
+   "category": "TRUE",
+   "subcategory": null,
+   "merchant_raw": null
+  },
+  "Indigo (Partners)": {
+   "category": "TRUE",
+   "subcategory": null,
+   "merchant_raw": "IndiGo Partners"
+  },
+  "Duty Free": {
+   "category": "International",
+   "subcategory": "International",
+   "merchant_raw": null
+  },
+  "Acer": {
+   "category": "Online",
+   "subcategory": "Electronics",
+   "merchant_raw": "Acer via Amex Rewards Multiplier"
+  },
+  "Apple": {
+   "category": "Online",
+   "subcategory": "Electronics",
+   "merchant_raw": "Apple via Amex Rewards Multiplier"
+  },
+  "Ajio": {
+   "category": "Online",
+   "subcategory": "Shopping",
+   "merchant_raw": "Ajio via Amex Rewards Multiplier"
+  },
+  "Darveys": {
+   "category": "Online",
+   "subcategory": "Shopping",
+   "merchant_raw": "Darveys"
+  },
+  "RAS": {
+   "category": "Online",
+   "subcategory": "Personal Care",
+   "merchant_raw": "RAS"
+  },
+  "Tata Cliq Luxury": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Tata Cliq Luxury"
+  },
+  "Dyson": {
+   "category": "Online",
+   "subcategory": "Shopping",
+   "merchant_raw": "Dyson"
+  },
+  "MakeMyTrip": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "MakeMyTrip via Amex Rewards Multiplier"
+  },
+  "Uniqlo": {
+   "category": "Online",
+   "subcategory": "Fashion",
+   "merchant_raw": "Uniqlo via Amex Rewards Multiplier"
+  },
+  "Blinkit": {
+   "category": "F&B",
+   "subcategory": "Grocery",
+   "merchant_raw": "Blinkit"
+  },
+  "Snapdeal": {
+   "category": "Online",
+   "subcategory": "E-Commerce",
+   "merchant_raw": "Snapdeal"
+  },
+  "Bills & Utilities": {
+   "category": "Utilities",
+   "subcategory": "Utilities",
+   "merchant_raw": null
+  },
+  "Supermarkets": {
+   "category": "Shopping",
+   "subcategory": "Shopping",
+   "merchant_raw": null
+  },
+  "Healthcare": {
+   "category": "Healthcare",
+   "subcategory": "Healthcare",
+   "merchant_raw": null
+  },
+  "Shopping": {
+   "category": "Online Shopping",
+   "subcategory": null,
+   "merchant_raw": null
+  },
+  "Croma": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Croma"
+  },
+  "Reliance Digital": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Reliance Digital"
+  },
+  "Income/Advance Tax/GST": {
+   "category": "Government",
+   "subcategory": "Government",
+   "merchant_raw": null
+  },
+  "ClearTax": {
+   "category": "Government",
+   "subcategory": "Government",
+   "merchant_raw": null
+  },
+  "EMI": {
+   "category": "EMI",
+   "subcategory": "EMI",
+   "merchant_raw": null
+  },
+  "Trains via SmartBuy": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Trains via SmartBuy"
+  },
+  "MakeMyTrip MyBiz": {
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "MakeMyTrip"
+  },
+  "Movies via Paytm": {
+   "category": "Entertainment",
+   "subcategory": "Entertainment",
+   "merchant_raw": "Movies via Paytm"
+  },
+  "Bharat Gas": {
+   "category": "Utilities",
+   "subcategory": "Utilities",
+   "merchant_raw": "Bharat Gas"
+  },
+  "Newby London": {
+   "category": "F&B",
+   "subcategory": "Grocery",
+   "merchant_raw": "Newby London"
+  },
+  "Flipkart": {
+   "category": "Online",
+   "subcategory": "E-Commerce",
+   "merchant_raw": "Flipkart"
+  },
+  "Wallets": {
+   "category": "Wallets",
+   "subcategory": "Wallets",
+   "merchant_raw": null
+  },
+  "SmartBuy": {
+   "category": "Online",
+   "subcategory": "E-Commerce",
+   "merchant_raw": null
+  },
+  "Harley-Davidson Merchandise": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Harley-Davidson"
+  },
+  "Shopping (Select Brands)": {
+   "category": "Shopping",
+   "subcategory": "Shopping",
+   "merchant_raw": null
+  },
+  "Central Store": {
+   "category": "Offline",
+   "subcategory": "Shopping",
+   "merchant_raw": "Central Store"
+  },
+  "LIC": {
+   "category": "Insurance",
+   "subcategory": "Insurance",
+   "merchant_raw": "LIC"
+  },
+  "British Airways": {
+   "category": "Travel",
+   "subcategory": "Direct Airlines",
+   "merchant_raw": "British Airways"
+  },
+  "KFC": {
+   "category": "F&B",
+   "subcategory": "Dining",
+   "merchant_raw": "KFC"
+  },
+  "FASTag recharge (UTS)": {
+   "category": "Utilities",
+   "subcategory": "Utilities",
+   "merchant_raw": "Fastag"
+  },
+  "Retail": {
+   "category": "Shopping",
+   "subcategory": "Shopping",
+   "merchant_raw": null
+  },
+  "Domestic Airlines": {
+   "category": "Travel",
+   "subcategory": "Direct Airlines",
+   "merchant_raw": null
+  },
+  "Uber": {
+   "category": "Travel",
+   "subcategory": "Cabs",
+   "merchant_raw": "Uber"
+  },
+  "Telecom & Cables": {
+   "category": "Telecom & Cable",
+   "subcategory": "Telecom & Cable",
+   "merchant_raw": null
+  },
+  "Best Price Spends": {
+   "category": "Offline",
+   "subcategory": "Shopping",
+   "merchant_raw": "Best Price"
+  },
+  "Duty-Free": {
+   "category": "Jewellery",
+   "subcategory": "Jewellery",
+   "merchant_raw": null
+  },
+  "UPI Scan (Neon Members)": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "UPI via Kiwi"
+  },
+  "UPI Scan (Non-Neon Members)": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "UPI via Kiwi"
+  },
+  "Cult.fit": {
+   "category": "Fitness",
+   "subcategory": "Fitness",
+   "merchant_raw": "Cult.fit"
+  },
+  "PhonePe (Utilities)": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "PhonePe (Utilities)"
+  },
+  "PhonePe (Insurance)": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "PhonePe (Insurance)"
+  },
+  "Utilities (PhonePe)": {
+   "category": "Utilities",
+   "subcategory": null,
+   "merchant_raw": null
+  },
+  "Indigo": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "IndiGo"
+  },
+  "Wellbeing Nutrition": {
+   "category": "Online",
+   "subcategory": "Personal Care",
+   "merchant_raw": "Wellbeing Nutrition via Amex Rewards Multiplier"
+  },
+  "Farfetch": {
+   "category": "Online",
+   "subcategory": "Shopping",
+   "merchant_raw": "Farfetch via Amex Rewards Multiplier"
+  },
+  "Birthday": {
+   "category": "Birthday",
+   "subcategory": "Birthday",
+   "merchant_raw": null
+  },
+  "Zomato": {
+   "category": "F&B",
+   "subcategory": "Order In",
+   "merchant_raw": "Zomato"
+  },
+  "Tata Outlets": {
+   "category": "Retail",
+   "subcategory": null,
+   "merchant_raw": null
+  },
+  "Jio-BP": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Jio-BP"
+  },
+  "Travel Bookings on Scapia App": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Travel via Scapia"
+  },
+  "Air India": {
+   "category": "Travel",
+   "subcategory": "Direct Airlines",
+   "merchant_raw": "Air India"
+  },
+  "PhonePe": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "PhonePe"
+  },
+  "UPI (MobiKwik)": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "UPI via MobiKwik"
+  },
+  "Ola": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Ola"
+  },
+  "Landmark Stores": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Landmark Stores"
+  },
+  "Cred": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Cred"
+  },
+  "Paytm Travel": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Paytm Travel"
+  },
+  "Hotstar": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Hotstar"
+  },
+  "Tata Play": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Tata Play"
+  },
+  "SuperMoney App": {
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "SuperMoney"
+  }
+ },
+ "conflicts": [
+  {
+   "name": "International",
+   "chosen": [
+    "International",
+    "International",
+    null
+   ],
+   "support": 25,
+   "total": 26,
+   "alternatives": [
+    [
+     "International",
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "name": "Grocery",
+   "chosen": [
+    "F&B",
+    "Grocery",
+    null
+   ],
+   "support": 50,
+   "total": 51,
+   "alternatives": [
+    [
+     "F&B",
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "name": "Utilities",
+   "chosen": [
+    "Utilities",
+    "Utilities",
+    null
+   ],
+   "support": 38,
+   "total": 39,
+   "alternatives": [
+    [
+     "Telecom & Cable",
+     "Telecom & Cable",
+     null
+    ]
+   ]
+  },
+  {
+   "name": "Government",
+   "chosen": [
+    "Government",
+    "Government",
+    null
+   ],
+   "support": 6,
+   "total": 7,
+   "alternatives": [
+    [
+     "Government",
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "name": "Myntra",
+   "chosen": [
+    "Online",
+    "E-Commerce",
+    "Myntra"
+   ],
+   "support": 5,
+   "total": 6,
+   "alternatives": [
+    [
+     "Online",
+     "E-Commerce",
+     "Myntra via Amex Rewards Multiplier"
+    ]
+   ]
+  },
+  {
+   "name": "Swiggy",
+   "chosen": [
+    "F&B",
+    "Order In",
+    "Swiggy"
+   ],
+   "support": 6,
+   "total": 7,
+   "alternatives": [
+    [
+     null,
+     null,
+     "Swiggy"
+    ]
+   ]
+  },
+  {
+   "name": "BookMyShow",
+   "chosen": [
+    "Entertainment",
+    "Entertainment",
+    "BookMyShow"
+   ],
+   "support": 4,
+   "total": 5,
+   "alternatives": [
+    [
+     null,
+     null,
+     "BookMyShow"
+    ]
+   ]
+  },
+  {
+   "name": "Tanishq",
+   "chosen": [
+    "Jewellery",
+    "Jewellery",
+    "Tanishq"
+   ],
+   "support": 2,
+   "total": 3,
+   "alternatives": [
+    [
+     "Online",
+     "Jewellery",
+     "Tanishq via Amex Rewards Multiplier"
+    ]
+   ]
+  },
+  {
+   "name": "Tata Neu",
+   "chosen": [
+    "Online",
+    "E-Commerce",
+    "Tata Neu"
+   ],
+   "support": 2,
+   "total": 4,
+   "alternatives": [
+    [
+     null,
+     null,
+     "Tata Neu"
+    ]
+   ]
+  },
+  {
+   "name": "Hotels via SmartBuy",
+   "chosen": [
+    "Travel",
+    "OTAs",
+    "Hotels via SmartBuy"
+   ],
+   "support": 3,
+   "total": 5,
+   "alternatives": [
+    [
+     "Online",
+     "E-Commerce",
+     "Hotels via SmartBuy"
+    ],
+    [
+     null,
+     null,
+     "Hotels via SmartBuy"
+    ]
+   ]
+  },
+  {
+   "name": "Dining",
+   "chosen": [
+    "F&B",
+    "Dining",
+    null
+   ],
+   "support": 44,
+   "total": 46,
+   "alternatives": [
+    [
+     "F&B",
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "name": "Movies",
+   "chosen": [
+    "Entertainment",
+    "Entertainment",
+    null
+   ],
+   "support": 16,
+   "total": 18,
+   "alternatives": [
+    [
+     "Entertainment",
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "name": "Hotels via IDFC App",
+   "chosen": [
+    "Travel",
+    "Hotels",
+    "Hotels via IDFC"
+   ],
+   "support": 4,
+   "total": 13,
+   "alternatives": [
+    [
+     "Travel",
+     "Hotels",
+     "Hotels via IDFC App"
+    ],
+    [
+     null,
+     null,
+     "Hotels via IDFC App"
+    ],
+    [
+     null,
+     null,
+     "Hotels via IDFC"
+    ]
+   ]
+  },
+  {
+   "name": "Flights via IDFC App",
+   "chosen": [
+    "Travel",
+    "Flights",
+    "Flights via IDFC"
+   ],
+   "support": 5,
+   "total": 15,
+   "alternatives": [
+    [
+     "Travel",
+     "Flights",
+     "Flights via IDFC App"
+    ],
+    [
+     null,
+     null,
+     "Flights via IDFC App"
+    ],
+    [
+     null,
+     null,
+     "Flights via IDFC"
+    ]
+   ]
+  },
+  {
+   "name": "Rent",
+   "chosen": [
+    "Rent",
+    "Rent",
+    null
+   ],
+   "support": 6,
+   "total": 7,
+   "alternatives": [
+    [
+     "Rent",
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "name": "Base Rewards",
+   "chosen": [
+    "TRUE",
+    null,
+    null
+   ],
+   "support": 3,
+   "total": 4,
+   "alternatives": [
+    [
+     null,
+     null,
+     "UPI via Kiwi"
+    ]
+   ]
+  },
+  {
+   "name": "Duty Free",
+   "chosen": [
+    "International",
+    "International",
+    null
+   ],
+   "support": 1,
+   "total": 2,
+   "alternatives": [
+    [
+     "International",
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "name": "Ajio",
+   "chosen": [
+    "Online",
+    "Shopping",
+    "Ajio via Amex Rewards Multiplier"
+   ],
+   "support": 1,
+   "total": 2,
+   "alternatives": [
+    [
+     "Online",
+     "Shopping",
+     "Ajio"
+    ]
+   ]
+  },
+  {
+   "name": "Shopping",
+   "chosen": [
+    "Online Shopping",
+    null,
+    null
+   ],
+   "support": 1,
+   "total": 2,
+   "alternatives": [
+    [
+     "Online",
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "name": "Croma",
+   "chosen": [
+    null,
+    null,
+    "Croma"
+   ],
+   "support": 2,
+   "total": 4,
+   "alternatives": [
+    [
+     "Online",
+     "Electronics",
+     "Croma"
+    ],
+    [
+     "Online",
+     "Electronics",
+     "Croma via Amex Rewards Multiplier"
+    ]
+   ]
+  },
+  {
+   "name": "Wallets",
+   "chosen": [
+    "Wallets",
+    "Wallets",
+    null
+   ],
+   "support": 5,
+   "total": 6,
+   "alternatives": [
+    [
+     "Wallets",
+     "Wallets",
+     "PayZapp"
+    ]
+   ]
+  },
+  {
+   "name": "SmartBuy",
+   "chosen": [
+    "Online",
+    "E-Commerce",
+    null
+   ],
+   "support": 1,
+   "total": 2,
+   "alternatives": [
+    [
+     "Online",
+     "E-Commerce",
+     "SmartBuy"
+    ]
+   ]
+  },
+  {
+   "name": "Uber",
+   "chosen": [
+    "Travel",
+    "Cabs",
+    "Uber"
+   ],
+   "support": 4,
+   "total": 5,
+   "alternatives": [
+    [
+     null,
+     null,
+     "Uber"
+    ]
+   ]
+  }
+ ]
+}

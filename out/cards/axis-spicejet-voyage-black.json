@@ -1,0 +1,450 @@
+{
+ "slug": "axis-spicejet-voyage-black",
+ "card_id": 54,
+ "title": "Axis SpiceJet Voyage Black credit card",
+ "display_name": "SpiceJet Voyage Black",
+ "issuer": {
+  "slug": "axis",
+  "name": "Axis"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": 2000,
+  "renewal": 2000,
+  "addon": 0,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 55.55
+ },
+ "return_percentage": "3% to 5%",
+ "overview": "A higher-tier SpiceJet co-branded variant that provides premium travel benefits, priority check-in, additional baggage allowance, and milestone rewards for loyal SpiceJet travelers.",
+ "best_suited": [
+  "Airline Transfer",
+  "Travel Booking"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [],
+ "benefit_types": [
+  "DINING_ORDER_IN",
+  "VOUCHERS"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/SPICEJET%20VOYAGE%20BLACK.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/AXIS.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 6,
+    "per": 200,
+    "currency": "INR",
+    "unit": "SpiceClub Points (SCs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 200,
+   "raw_text": "Earn 6 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Spicejet",
+   "is_base_rate": false,
+   "rate": {
+    "value": 28,
+    "per": 200,
+    "currency": "INR",
+    "unit": "SpiceClub Points (SCs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 28 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "inferred_card_unit"
+   }
+  },
+  {
+   "name": "Online (Bill Payments, Entertainment and Food Orders)",
+   "is_base_rate": false,
+   "rate": {
+    "value": 12,
+    "per": 200,
+    "currency": "INR",
+    "unit": "SpiceClub Points (SCs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 12 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "inferred_card_unit"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Government",
+   "category": "Government"
+  },
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  },
+  {
+   "name": "Education",
+   "category": "Education"
+  },
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "EazyDiner",
+   "type": "DINING_ORDER_IN",
+   "description": "15% off via Dining Delights Program",
+   "offer": "15% off up to INR 500 on EazyDiner.|Minimum Order Value INR 2500",
+   "duration": "Ongoing",
+   "howToAvail": "Select the restaurant to be paid on the EazyDiner app.|Enter the amount, and select the offer.|Discount will be applied and net payment will be required to be made.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/EasyDiner.png"
+  },
+  {
+   "name": "Spicejet",
+   "type": "VOUCHERS",
+   "description": "Flight Ticket Voucher Worth Rs 4000",
+   "offer": null,
+   "duration": "Ongoing",
+   "howToAvail": "To avail this voucher, log in at https://axisbankaura.poshvine.com using your registered mobile number, enter the OTP sent to your phone, select your SpiceJet voucher from the available benefits, and redeem it online at www.spicejet.com.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/spicejet.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "EazyDiner",
+   "child": "15% off via Dining Delights Program"
+  },
+  {
+   "mainTitle": "Spicejet",
+   "child": "Flight Ticket Voucher Worth Rs 4000"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "8 per year"
+    ],
+    "eligibility": [
+     "Minimum spends of ₹50k in previous 3 calendar months."
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "8 per year",
+    "visitsPerCycle": "8",
+    "duration": "year",
+    "eligibility": "Minimum spends of ₹50k in previous 3 calendar months."
+   }
+  ],
+  "airports": 21
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 0,
+   "startAmount": 0,
+   "duration": 30,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "SpiceJet voucher worth Rs. 4000.",
+   "milestoneType": "DAYS"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 200000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "4,000 SpiceClub points.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 3,
+   "spent": 400000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "4,000 SpiceClub points.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 3,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 3,
+  "earn_rules_with_category": 0,
+  "benefits_total": 2,
+  "benefits_structured": 2,
+  "lounge_total": 1,
+  "lounge_structured": 1,
+  "milestones_count": 3,
+  "categories_tested": 16,
+  "categories_earning": 9
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 3.5,
+   "points_per_100": 14.0,
+   "reward_worth_inr": 350,
+   "reward_points": 1400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.75,
+   "points_per_100": 3.0,
+   "reward_worth_inr": 75,
+   "reward_points": 300,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.75,
+   "points_per_100": 3.0,
+   "reward_worth_inr": 75,
+   "reward_points": 300,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.75,
+   "points_per_100": 3.0,
+   "reward_worth_inr": 75,
+   "reward_points": 300,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.75,
+   "points_per_100": 3.0,
+   "reward_worth_inr": 75,
+   "reward_points": 300,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.75,
+   "points_per_100": 3.0,
+   "reward_worth_inr": 75,
+   "reward_points": 300,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.75,
+   "points_per_100": 3.0,
+   "reward_worth_inr": 75,
+   "reward_points": 300,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 1.5,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 150,
+   "reward_points": 600,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.75,
+   "points_per_100": 3.0,
+   "reward_worth_inr": 75,
+   "reward_points": 300,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 9,
+  "max_rate_pct": 3.5,
+  "base_rate_pct": 0.75,
+  "point_value_inr": 0.25
+ }
+}

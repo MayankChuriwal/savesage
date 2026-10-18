@@ -1,0 +1,2155 @@
+{
+ "issuer": "HDFC",
+ "counts": {
+  "rivo": 50,
+  "savesage": 82,
+  "matched": 44,
+  "rivo_only": 6,
+  "savesage_only": 22
+ },
+ "savesage_only_slugs": [
+  "hdfc-paytm-select",
+  "hdfc-paytm",
+  "hdfc-paytm-mobile",
+  "hdfc-easyemi",
+  "hdfc-corporate-premium",
+  "hdfc-sap-concur-solutions-black-corporate",
+  "hdfc-sap-concur-solutions-prime-corporate",
+  "hdfc-biz-grow",
+  "hdfc-biz-first",
+  "hdfc-paytm-select-business",
+  "hdfc-upi-rupay-biz",
+  "hdfc-flipkart-wholesale",
+  "hdfc-hog-diners-club",
+  "hdfc-harleydavidson-diners-club",
+  "hdfc-equitas-elegance",
+  "hdfc-equitas-excite",
+  "hdfc-best-price-save-smart",
+  "hdfc-bharat-cashback",
+  "hdfc-paytm-digital",
+  "hdfc-pine-labs",
+  "hdfc-best-price-save-max",
+  "hdfc-purchase-premium"
+ ],
+ "aggregate": {
+  "rivo_only": 6,
+  "annual_fee:agree": 40,
+  "joining_fee:agree": 40,
+  "forex_markup_pct:agree": 32,
+  "network:agree": 12,
+  "annual_fee:CONFLICT": 4,
+  "joining_fee:CONFLICT": 4,
+  "forex_markup_pct:CONFLICT": 5,
+  "network:CONFLICT": 20,
+  "forex_markup_pct:rivo_missing": 5,
+  "network:rivo_missing": 12,
+  "rivo_no_mcc": 2,
+  "status_conflict": 2,
+  "forex_markup_pct:savesage_missing": 2
+ },
+ "cards": [
+  {
+   "slug": "hdfc-diners-club-international",
+   "name": "DINERS CLUB INTERNATIONAL",
+   "matched": null
+  },
+  {
+   "slug": "shoppers-stop-hdfc-bank",
+   "name": "SHOPPERS STOP",
+   "matched": [
+    "hdfc-shoppers-stop",
+    "hdfc-shoppers-stop-black"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 299.0,
+     "savesage": 299,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 299.0,
+     "savesage": 299,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "VISA",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 3,
+    "savesage_count": 3,
+    "savesage_stated_total": 3,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 1,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 3,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 1,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-diners-club-intermiles",
+   "name": "DINERS CLUB INTERMILES",
+   "matched": [
+    "hdfc-diners-club-miles"
+   ],
+   "score": 0.63,
+   "fields": {
+    "annual_fee": {
+     "rivo": 5000.0,
+     "savesage": 1000,
+     "state": "CONFLICT"
+    },
+    "joining_fee": {
+     "rivo": 5000.0,
+     "savesage": 1000,
+     "state": "CONFLICT"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 3.5,
+     "state": "CONFLICT"
+    },
+    "network": {
+     "rivo": "{\"DINERS CLUB\"}",
+     "savesage": "DINERS_CLUB",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 1,
+    "savesage_stated_total": 1,
+    "rivo_with_mcc": 2,
+    "rivo_with_merchant": 1,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 0,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "rivo has 2 rules vs savesage 1"
+   ]
+  },
+  {
+   "slug": "hdfc-bank-solitaire",
+   "name": "SOLITAIRE",
+   "matched": [
+    "hdfc-solitaire"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": null,
+     "savesage": 3.5,
+     "state": "rivo_missing"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "VISA",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 4,
+    "savesage_stated_total": 4,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 3,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 4 rules vs rivo 2"
+   ]
+  },
+  {
+   "slug": "hdfc-moneyback-plus",
+   "name": "MONEYBACK PLUS",
+   "matched": [
+    "hdfc-moneyback-plus",
+    "hdfc-moneyback"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "VISA",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 9,
+    "savesage_stated_total": 9,
+    "rivo_with_mcc": 2,
+    "rivo_with_merchant": 1,
+    "rivo_with_cap": 1,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 4,
+    "savesage_with_category": 7,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 9 rules vs rivo 2"
+   ]
+  },
+  {
+   "slug": "hdfc-millennia",
+   "name": "MILLENNIA",
+   "matched": [
+    "hdfc-millennia-visa",
+    "hdfc-millennia-diners-club",
+    "hdfc-millennia-rupay",
+    "hdfc-millennia-mastercard"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "VISA",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 15,
+    "savesage_count": 14,
+    "savesage_stated_total": 14,
+    "rivo_with_mcc": 6,
+    "rivo_with_merchant": 14,
+    "rivo_with_cap": 14,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 15,
+    "savesage_with_merchant": 8,
+    "savesage_with_category": 11,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-doctors-regalia",
+   "name": "DOCTORS REGALIA",
+   "matched": [
+    "hdfc-doctors-regalia",
+    "hdfc-doctors-superia",
+    "hdfc-regalia-first",
+    "hdfc-regalia-activ",
+    "hdfc-regalia-activ-rupay",
+    "hdfc-regalia-gold",
+    "hdfc-regalia"
+   ],
+   "score": 0.86,
+   "fields": {
+    "annual_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 3.5,
+     "state": "CONFLICT"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "VISA",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 1,
+    "savesage_count": 5,
+    "savesage_stated_total": 5,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 1,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 4,
+    "savesage_with_cap_text": 1,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 5 rules vs rivo 1"
+   ]
+  },
+  {
+   "slug": "marriott-bonvoy-hdfc-bank",
+   "name": "MARRIOTT BONVOY",
+   "matched": [
+    "hdfc-marriott-bonvoy"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 3000.0,
+     "savesage": 3000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 3000.0,
+     "savesage": 3000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "DINERS",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 3,
+    "savesage_count": 6,
+    "savesage_stated_total": 6,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 1,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 3,
+    "savesage_with_merchant": 1,
+    "savesage_with_category": 5,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 6 rules vs rivo 3"
+   ]
+  },
+  {
+   "slug": "hdfc-diners-club-black-metal-edition",
+   "name": "DINERS CLUB BLACK METAL",
+   "matched": [
+    "hdfc-diners-club-black-metal",
+    "hdfc-diners-club-black",
+    "hdfc-biz-black-metal"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 10000.0,
+     "savesage": 10000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 10000.0,
+     "savesage": 10000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 2,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "DINERS",
+     "savesage": "DINERS_CLUB",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 15,
+    "savesage_count": 20,
+    "savesage_stated_total": 20,
+    "rivo_with_mcc": 5,
+    "rivo_with_merchant": 13,
+    "rivo_with_cap": 13,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 15,
+    "savesage_with_merchant": 12,
+    "savesage_with_category": 8,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-teachers-platinum",
+   "name": "TEACHERS PLATINUM",
+   "matched": [
+    "hdfc-teachers-platinum",
+    "hdfc-times-platinum"
+   ],
+   "score": 0.87,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "VISA",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 2,
+    "savesage_stated_total": 2,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 0,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-bizpower",
+   "name": "HDFC Bank BizPower Credit Card",
+   "matched": [
+    "hdfc-biz-power"
+   ],
+   "score": 0.89,
+   "fields": {
+    "annual_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 2,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "VISA",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 16,
+    "savesage_count": 25,
+    "savesage_stated_total": 25,
+    "rivo_with_mcc": 0,
+    "rivo_with_merchant": 5,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 0,
+    "savesage_with_merchant": 17,
+    "savesage_with_category": 6,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "rivo rules carry no MCC",
+    "savesage has 25 rules vs rivo 16"
+   ]
+  },
+  {
+   "slug": "hdfc-freedom",
+   "name": "FREEDOM",
+   "matched": [
+    "hdfc-freedom"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "VISA",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 10,
+    "savesage_stated_total": 10,
+    "rivo_with_mcc": 2,
+    "rivo_with_merchant": 1,
+    "rivo_with_cap": 1,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 5,
+    "savesage_with_category": 9,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 10 rules vs rivo 2"
+   ]
+  },
+  {
+   "slug": "hdfc-diners-club-rewardz",
+   "name": "DINERS CLUB REWARDZ",
+   "matched": [
+    "hdfc-diners-club-rewardz"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "DINERS",
+     "savesage": "DINERS_CLUB",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 1,
+    "savesage_count": 1,
+    "savesage_stated_total": 1,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 1,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 0,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "irctc-hdfc-bank",
+   "name": "IRCTC",
+   "matched": [
+    "hdfc-irctc"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "RUPAY",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 3,
+    "savesage_count": 4,
+    "savesage_stated_total": 4,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 2,
+    "rivo_with_cap": 2,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 3,
+    "savesage_with_merchant": 2,
+    "savesage_with_category": 3,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-diners-club-premium",
+   "name": "DINERS CLUB PREMIUM",
+   "matched": [
+    "hdfc-diners-club-premium"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 3.5,
+     "state": "CONFLICT"
+    },
+    "network": {
+     "rivo": "DINERS",
+     "savesage": "DINERS_CLUB",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 1,
+    "savesage_count": 5,
+    "savesage_stated_total": 5,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 1,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 4,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 5 rules vs rivo 1"
+   ]
+  },
+  {
+   "slug": "hdfc-diners-club-miles",
+   "name": "DINERS CLUB MILES",
+   "matched": [
+    "hdfc-diners-club-miles"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.0,
+     "savesage": 3.5,
+     "state": "CONFLICT"
+    },
+    "network": {
+     "rivo": "DINERS",
+     "savesage": "DINERS_CLUB",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 1,
+    "savesage_count": 1,
+    "savesage_stated_total": 1,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 1,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 0,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-swiggy-blck",
+   "name": "SWIGGY BLCK",
+   "matched": [
+    "hdfc-swiggy-blck"
+   ],
+   "score": 0.75,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "MASTERCARD",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 5,
+    "savesage_count": 25,
+    "savesage_stated_total": 25,
+    "rivo_with_mcc": 4,
+    "rivo_with_merchant": 4,
+    "rivo_with_cap": 4,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 5,
+    "savesage_with_merchant": 11,
+    "savesage_with_category": 9,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 25 rules vs rivo 5"
+   ]
+  },
+  {
+   "slug": "hdfc-bank-regalia",
+   "name": "REGALIA",
+   "matched": [
+    "hdfc-regalia",
+    "hdfc-regalia-gold",
+    "hdfc-regalia-first",
+    "hdfc-regalia-activ",
+    "hdfc-regalia-activ-rupay",
+    "hdfc-retailio"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "MASTERCARD",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 1,
+    "savesage_count": 12,
+    "savesage_stated_total": 12,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 1,
+    "savesage_with_merchant": 9,
+    "savesage_with_category": 4,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 12 rules vs rivo 1"
+   ]
+  },
+  {
+   "slug": "hdfc-bharat",
+   "name": "BHARAT",
+   "matched": [
+    "hdfc-bharat"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": null,
+     "savesage": 3.5,
+     "state": "rivo_missing"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "RUPAY",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 4,
+    "savesage_count": 6,
+    "savesage_stated_total": 6,
+    "rivo_with_mcc": 2,
+    "rivo_with_merchant": 3,
+    "rivo_with_cap": 3,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 4,
+    "savesage_with_merchant": 1,
+    "savesage_with_category": 3,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-titanium-edge",
+   "name": "TITANIUM EDGE",
+   "matched": [
+    "hdfc-platinum-edge",
+    "hdfc-times-titanium"
+   ],
+   "score": 0.73,
+   "fields": {
+    "annual_fee": {
+     "rivo": 0.0,
+     "savesage": 599,
+     "state": "CONFLICT"
+    },
+    "joining_fee": {
+     "rivo": 0.0,
+     "savesage": 599,
+     "state": "CONFLICT"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "VISA",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 3,
+    "savesage_stated_total": 3,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 0,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 2,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-platinum-edge",
+   "name": "PLATINUM EDGE",
+   "matched": [
+    "hdfc-platinum-edge",
+    "hdfc-corporate-platinum"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 599.0,
+     "savesage": 599,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 599.0,
+     "savesage": 599,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "VISA",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 3,
+    "savesage_stated_total": 3,
+    "rivo_with_mcc": 2,
+    "rivo_with_merchant": 1,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 2,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-regalia-first",
+   "name": "REGALIA FIRST",
+   "matched": [
+    "hdfc-regalia-first"
+   ],
+   "score": 0.69,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 3.5,
+     "state": "CONFLICT"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "MASTERCARD",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 1,
+    "savesage_count": 10,
+    "savesage_stated_total": 10,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 0,
+    "savesage_with_merchant": 5,
+    "savesage_with_category": 5,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 10 rules vs rivo 1"
+   ]
+  },
+  {
+   "slug": "shoppers-stop-black-hdfc-bank",
+   "name": "SHOPPERS STOP BLACK",
+   "matched": [
+    "hdfc-shoppers-stop-black",
+    "hdfc-shoppers-stop"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 4500.0,
+     "savesage": 4500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 4500.0,
+     "savesage": 4500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "MASTERCARD",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 3,
+    "savesage_count": 3,
+    "savesage_stated_total": 3,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 1,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 3,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 1,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-diners-club-black",
+   "name": "DINERS CLUB BLACK",
+   "matched": [
+    "hdfc-diners-club-black-metal",
+    "hdfc-diners-club-black",
+    "hdfc-biz-black-metal"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 10000.0,
+     "savesage": 10000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 10000.0,
+     "savesage": 10000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 2,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "DINERS",
+     "savesage": "DINERS_CLUB",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 15,
+    "savesage_count": 20,
+    "savesage_stated_total": 20,
+    "rivo_with_mcc": 5,
+    "rivo_with_merchant": 13,
+    "rivo_with_cap": 13,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 15,
+    "savesage_with_merchant": 12,
+    "savesage_with_category": 8,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-6e-rewards-indigo",
+   "name": "6E Rewards IndiGo HDFC Bank Credit Card",
+   "matched": [
+    "hdfc-6e-rewards-indigo",
+    "hdfc-6e-rewards-xl-indigo"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "MASTERCARD",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 12,
+    "savesage_count": 6,
+    "savesage_stated_total": 6,
+    "rivo_with_mcc": 0,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 0,
+    "savesage_with_merchant": 1,
+    "savesage_with_category": 5,
+    "savesage_with_cap_text": 1,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "rivo rules carry no MCC",
+    "rivo has 12 rules vs savesage 6",
+    "rivo says discontinued, savesage says still issuing"
+   ]
+  },
+  {
+   "slug": "tata-neu-plus-hdfc-bank",
+   "name": "TATA NEU PLUS",
+   "matched": [
+    "hdfc-tata-neu-plus",
+    "hdfc-tata-neu-plus-rupay"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 499.0,
+     "savesage": 499,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 499.0,
+     "savesage": 499,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "RUPAY",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 27,
+    "savesage_count": 24,
+    "savesage_stated_total": 24,
+    "rivo_with_mcc": 8,
+    "rivo_with_merchant": 26,
+    "rivo_with_cap": 23,
+    "rivo_with_payment_rail": 7,
+    "rivo_unverified": 27,
+    "savesage_with_merchant": 11,
+    "savesage_with_category": 13,
+    "savesage_with_cap_text": 1,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-superia",
+   "name": "SUPERIA",
+   "matched": [
+    "hdfc-superia",
+    "hdfc-doctors-superia"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "VISA",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 6,
+    "savesage_stated_total": 6,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 5,
+    "savesage_with_cap_text": 1,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 6 rules vs rivo 2"
+   ]
+  },
+  {
+   "slug": "hdfc-bizblack-metal",
+   "name": "BIZBLACK METAL",
+   "matched": [
+    "hdfc-biz-black-metal",
+    "hdfc-diners-club-black-metal",
+    "hdfc-diners-club-black"
+   ],
+   "score": 0.89,
+   "fields": {
+    "annual_fee": {
+     "rivo": 10000.0,
+     "savesage": 10000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 10000.0,
+     "savesage": 10000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 2,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "DINERS",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 19,
+    "savesage_count": 22,
+    "savesage_stated_total": 22,
+    "rivo_with_mcc": 6,
+    "rivo_with_merchant": 14,
+    "rivo_with_cap": 18,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 19,
+    "savesage_with_merchant": 15,
+    "savesage_with_category": 8,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "tata-neu-infinity-hdfc-bank",
+   "name": "TATA NEU INFINITY",
+   "matched": [
+    "hdfc-tata-neu-infinity",
+    "hdfc-tata-neu-infinity-rupay"
+   ],
+   "score": 0.75,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1499.0,
+     "savesage": 1499,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1499.0,
+     "savesage": 1499,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 2,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "VISA",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 27,
+    "savesage_count": 24,
+    "savesage_stated_total": 24,
+    "rivo_with_mcc": 8,
+    "rivo_with_merchant": 26,
+    "rivo_with_cap": 23,
+    "rivo_with_payment_rail": 7,
+    "rivo_unverified": 27,
+    "savesage_with_merchant": 11,
+    "savesage_with_category": 14,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-business-regalia",
+   "name": "BUSINESS REGALIA",
+   "matched": [
+    "hdfc-business-regalia",
+    "hdfc-business-regalia-first",
+    "hdfc-giga-business",
+    "hdfc-business-freedom",
+    "hdfc-paytm-business",
+    "hdfc-csc-small-business",
+    "hdfc-business-moneyback"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "VISA",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 2,
+    "savesage_stated_total": 2,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 1,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-all-miles",
+   "name": "ALL MILES",
+   "matched": [
+    "hdfc-diners-club-miles"
+   ],
+   "score": 0.68,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "DINERS_CLUB",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 1,
+    "savesage_stated_total": 1,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 0,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "rivo has 2 rules vs savesage 1"
+   ]
+  },
+  {
+   "slug": "hdfc-visa-signature",
+   "name": "VISA SIGNATURE",
+   "matched": null
+  },
+  {
+   "slug": "hdfc-world-mastercard",
+   "name": "WORLD MASTERCARD",
+   "matched": null
+  },
+  {
+   "slug": "swiggy-hdfc-bank",
+   "name": "SWIGGY",
+   "matched": [
+    "hdfc-swiggy",
+    "hdfc-swiggy-blck",
+    "hdfc-swiggy-ornge"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "MASTERCARD",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 3,
+    "savesage_count": 16,
+    "savesage_stated_total": 16,
+    "rivo_with_mcc": 2,
+    "rivo_with_merchant": 2,
+    "rivo_with_cap": 2,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 3,
+    "savesage_with_merchant": 7,
+    "savesage_with_category": 10,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 16 rules vs rivo 3",
+    "savesage says not issuing, rivo says active"
+   ]
+  },
+  {
+   "slug": "hdfc-bank-platinum-plus",
+   "name": "PLATINUM PLUS",
+   "matched": [
+    "hdfc-times-platinum",
+    "hdfc-teachers-platinum"
+   ],
+   "score": 0.7,
+   "fields": {
+    "annual_fee": {
+     "rivo": 0.0,
+     "savesage": 1000,
+     "state": "CONFLICT"
+    },
+    "joining_fee": {
+     "rivo": 0.0,
+     "savesage": 1000,
+     "state": "CONFLICT"
+    },
+    "forex_markup_pct": {
+     "rivo": null,
+     "savesage": 3.5,
+     "state": "rivo_missing"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "VISA",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 6,
+    "savesage_stated_total": 6,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 0,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 0,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 5,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 6 rules vs rivo 2"
+   ]
+  },
+  {
+   "slug": "hdfc-diners-club-privilege",
+   "name": "DINERS CLUB PRIVILEGE",
+   "matched": [
+    "hdfc-diners-club-privilege"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "DINERS",
+     "savesage": "DINERS_CLUB",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 15,
+    "savesage_count": 18,
+    "savesage_stated_total": 18,
+    "rivo_with_mcc": 6,
+    "rivo_with_merchant": 14,
+    "rivo_with_cap": 14,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 15,
+    "savesage_with_merchant": 14,
+    "savesage_with_category": 6,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-doctors-superia",
+   "name": "DOCTORS SUPERIA",
+   "matched": [
+    "hdfc-doctors-superia",
+    "hdfc-superia"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 1000,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "MASTERCARD",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 2,
+    "savesage_count": 1,
+    "savesage_stated_total": 1,
+    "rivo_with_mcc": 2,
+    "rivo_with_merchant": 1,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 2,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 0,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "rivo has 2 rules vs savesage 1"
+   ]
+  },
+  {
+   "slug": "hdfc-regalia-gold",
+   "name": "REGALIA GOLD",
+   "matched": [
+    "hdfc-regalia-gold",
+    "hdfc-regalia",
+    "hdfc-doctors-regalia",
+    "hdfc-regalia-first",
+    "hdfc-regalia-activ",
+    "hdfc-regalia-activ-rupay"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 2500.0,
+     "savesage": 2500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 2,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "MASTERCARD",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 18,
+    "savesage_count": 20,
+    "savesage_stated_total": 20,
+    "rivo_with_mcc": 7,
+    "rivo_with_merchant": 17,
+    "rivo_with_cap": 17,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 18,
+    "savesage_with_merchant": 14,
+    "savesage_with_category": 6,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-bank-pixel-play",
+   "name": "PIXEL PLAY",
+   "matched": [
+    "hdfc-pixel-play",
+    "hdfc-pixel-play-rupay"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "VISA",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 5,
+    "savesage_count": 14,
+    "savesage_stated_total": 14,
+    "rivo_with_mcc": 2,
+    "rivo_with_merchant": 3,
+    "rivo_with_cap": 4,
+    "rivo_with_payment_rail": 1,
+    "rivo_unverified": 5,
+    "savesage_with_merchant": 10,
+    "savesage_with_category": 10,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 14 rules vs rivo 5"
+   ]
+  },
+  {
+   "slug": "hdfc-swiggy-ornge",
+   "name": "SWIGGY ORNGE",
+   "matched": [
+    "hdfc-swiggy-ornge"
+   ],
+   "score": 0.76,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "MASTERCARD",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 6,
+    "savesage_count": 25,
+    "savesage_stated_total": 25,
+    "rivo_with_mcc": 4,
+    "rivo_with_merchant": 4,
+    "rivo_with_cap": 5,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 6,
+    "savesage_with_merchant": 11,
+    "savesage_with_category": 10,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "savesage has 25 rules vs rivo 6"
+   ]
+  },
+  {
+   "slug": "hdfc-bizpower-business",
+   "name": "BIZPOWER BUSINESS",
+   "matched": null
+  },
+  {
+   "slug": "phonepe-hdfc-bank-uno",
+   "name": "PHONEPE UNO",
+   "matched": [
+    "hdfc-phonepe-uno",
+    "hdfc-phonepe-ultimo"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 499.0,
+     "savesage": 499,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 499.0,
+     "savesage": 499,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": null,
+     "state": "savesage_missing"
+    },
+    "network": {
+     "rivo": "RUPAY",
+     "savesage": "RUPAY",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 17,
+    "savesage_count": 13,
+    "savesage_stated_total": 13,
+    "rivo_with_mcc": 7,
+    "rivo_with_merchant": 16,
+    "rivo_with_cap": 16,
+    "rivo_with_payment_rail": 3,
+    "rivo_unverified": 17,
+    "savesage_with_merchant": 7,
+    "savesage_with_category": 8,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-bank-pixel-go",
+   "name": "PIXEL GO",
+   "matched": [
+    "hdfc-pixel-go"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 250.0,
+     "savesage": 250,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 250.0,
+     "savesage": 250,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "VISA",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 3,
+    "savesage_count": 3,
+    "savesage_stated_total": 3,
+    "rivo_with_mcc": 1,
+    "rivo_with_merchant": 1,
+    "rivo_with_cap": 2,
+    "rivo_with_payment_rail": 1,
+    "rivo_unverified": 3,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 1,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-bank-upi-rupay",
+   "name": "HDFC BANK UPI RUPAY",
+   "matched": [
+    "hdfc-upi-rupay-credit"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 99.0,
+     "savesage": 99,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 99.0,
+     "savesage": 99,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": null,
+     "savesage": 3.5,
+     "state": "rivo_missing"
+    },
+    "network": {
+     "rivo": "RUPAY",
+     "savesage": "RUPAY",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 16,
+    "savesage_count": 5,
+    "savesage_stated_total": 5,
+    "rivo_with_mcc": 7,
+    "rivo_with_merchant": 15,
+    "rivo_with_cap": 15,
+    "rivo_with_payment_rail": 2,
+    "rivo_unverified": 16,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 4,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": [
+    "rivo has 16 rules vs savesage 5"
+   ]
+  },
+  {
+   "slug": "hdfc-intermiles-platinum",
+   "name": "INTERMILES PLATINUM",
+   "matched": [
+    "hdfc-platinum-edge"
+   ],
+   "score": 0.65,
+   "fields": {
+    "annual_fee": {
+     "rivo": 1000.0,
+     "savesage": 599,
+     "state": "CONFLICT"
+    },
+    "joining_fee": {
+     "rivo": 1000.0,
+     "savesage": 599,
+     "state": "CONFLICT"
+    },
+    "forex_markup_pct": {
+     "rivo": null,
+     "savesage": 3.5,
+     "state": "rivo_missing"
+    },
+    "network": {
+     "rivo": null,
+     "savesage": "VISA",
+     "state": "rivo_missing"
+    }
+   },
+   "rules": {
+    "rivo_count": 3,
+    "savesage_count": 3,
+    "savesage_stated_total": 3,
+    "rivo_with_mcc": 2,
+    "rivo_with_merchant": 2,
+    "rivo_with_cap": 0,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 3,
+    "savesage_with_merchant": 0,
+    "savesage_with_category": 2,
+    "savesage_with_cap_text": 0,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-infinia-metal",
+   "name": "INFINIA METAL",
+   "matched": [
+    "hdfc-infinia-metal",
+    "hdfc-infinia-plastic"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 12500.0,
+     "savesage": 12500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 12500.0,
+     "savesage": 12500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 2.0,
+     "savesage": 2,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "VISA",
+     "savesage": "VISA",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 14,
+    "savesage_count": 20,
+    "savesage_stated_total": 20,
+    "rivo_with_mcc": 5,
+    "rivo_with_merchant": 13,
+    "rivo_with_cap": 13,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 14,
+    "savesage_with_merchant": 13,
+    "savesage_with_category": 8,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-indianoil",
+   "name": "INDIAN OIL",
+   "matched": [
+    "hdfc-indian-oil"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 500.0,
+     "savesage": 500,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": 3.5,
+     "state": "agree"
+    },
+    "network": {
+     "rivo": "RUPAY",
+     "savesage": "VISA",
+     "state": "CONFLICT"
+    }
+   },
+   "rules": {
+    "rivo_count": 5,
+    "savesage_count": 5,
+    "savesage_stated_total": 5,
+    "rivo_with_mcc": 3,
+    "rivo_with_merchant": 2,
+    "rivo_with_cap": 4,
+    "rivo_with_payment_rail": 0,
+    "rivo_unverified": 5,
+    "savesage_with_merchant": 1,
+    "savesage_with_category": 3,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "phonepe-hdfc-bank-ultimo",
+   "name": "PHONEPE ULTIMO",
+   "matched": [
+    "hdfc-phonepe-ultimo",
+    "hdfc-phonepe-uno"
+   ],
+   "score": 1.0,
+   "fields": {
+    "annual_fee": {
+     "rivo": 999.0,
+     "savesage": 999,
+     "state": "agree"
+    },
+    "joining_fee": {
+     "rivo": 999.0,
+     "savesage": 999,
+     "state": "agree"
+    },
+    "forex_markup_pct": {
+     "rivo": 3.5,
+     "savesage": null,
+     "state": "savesage_missing"
+    },
+    "network": {
+     "rivo": "RUPAY",
+     "savesage": "RUPAY",
+     "state": "agree"
+    }
+   },
+   "rules": {
+    "rivo_count": 17,
+    "savesage_count": 13,
+    "savesage_stated_total": 13,
+    "rivo_with_mcc": 7,
+    "rivo_with_merchant": 16,
+    "rivo_with_cap": 16,
+    "rivo_with_payment_rail": 3,
+    "rivo_unverified": 17,
+    "savesage_with_merchant": 7,
+    "savesage_with_category": 8,
+    "savesage_with_cap_text": 2,
+    "savesage_category_cells": 16
+   },
+   "flags": []
+  },
+  {
+   "slug": "hdfc-intermiles-signature",
+   "name": "INTERMILES SIGNATURE",
+   "matched": null
+  },
+  {
+   "slug": "hdfc-jetprivilege-titanium",
+   "name": "JETPRIVILEGE TITANIUM",
+   "matched": null
+  }
+ ]
+}

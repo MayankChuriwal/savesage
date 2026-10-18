@@ -1,0 +1,720 @@
+{
+ "slug": "indusind-platinum-aura-edge",
+ "card_id": 374,
+ "title": "IndusInd Platinum Aura Edge credit card",
+ "display_name": "Platinum Aura Edge",
+ "issuer": {
+  "slug": "indusind",
+  "name": "IndusInd"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": null,
+  "renewal": 0,
+  "addon": 0,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 47.4
+ },
+ "return_percentage": "0.5% to 1%",
+ "overview": "A Platinum Aura Edge variant rewarding shopping, dining, and entertainment spends with milestone vouchers, ideal for mid-tier lifestyle seekers.",
+ "best_suited": [
+  "Experience",
+  "Travel Booking",
+  "Hotel Transfer"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "brand-wallet",
+  "cashback"
+ ],
+ "benefit_types": [
+  "INSURANCE",
+  "CONCIERGE"
+ ],
+ "lounge_types": [],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/Mapped/INDUS.webp",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/INDUSIND.png"
+ },
+ "apply_link": "https://customer.easycardsloans.com/credit-card/apply/?utm_org_code=ORG02973&utm_apply_for=INDUSIND_001",
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 0.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": "Savings Points (SPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 0.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Grocery",
+   "is_base_rate": false,
+   "rate": {
+    "value": 4,
+    "per": 100,
+    "currency": "INR",
+    "unit": "SPs"
+   },
+   "category": "F&B",
+   "subcategory": "Grocery",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 4 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "api",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Departmental Stores",
+   "is_base_rate": false,
+   "rate": {
+    "value": 4,
+    "per": 100,
+    "currency": "INR",
+    "unit": "SPs"
+   },
+   "category": "Shopping",
+   "subcategory": "Shopping",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 4 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "api",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Hotels",
+   "is_base_rate": false,
+   "rate": {
+    "value": 4,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Hotels",
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 4 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "name_matches_taxonomy",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Flights",
+   "is_base_rate": false,
+   "rate": {
+    "value": 2.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 2.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Bars and pubs",
+   "is_base_rate": false,
+   "rate": {
+    "value": 2,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 2 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Electronics",
+   "is_base_rate": false,
+   "rate": {
+    "value": 2,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Electronics",
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 2 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "name_matches_taxonomy",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Hospitals",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Book",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Movies",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Entertainment",
+   "subcategory": "Entertainment",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Restaurant",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Transportation & Tolls",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Transportation & Tolls",
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "name_matches_taxonomy",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Electricity/Cellphone Bills",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1.4,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1.4 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Insurance",
+   "is_base_rate": false,
+   "rate": {
+    "value": 1.4,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Insurance",
+   "subcategory": "Insurance",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 1.4 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Utilities",
+   "is_base_rate": false,
+   "rate": {
+    "value": 0.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Utilities",
+   "subcategory": "Utilities",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 0.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Wallets",
+   "is_base_rate": false,
+   "rate": {
+    "value": 0.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Wallets",
+   "subcategory": "Wallets",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 0.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Education",
+   "is_base_rate": false,
+   "rate": {
+    "value": 0.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Education",
+   "subcategory": "Education",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 0.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Rent",
+   "is_base_rate": false,
+   "rate": {
+    "value": 0.5,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Rent",
+   "subcategory": "Rent",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 0.5 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Concierge",
+   "type": "CONCIERGE",
+   "description": "24x7 Concierge Services",
+   "offer": "24*7 concierge services & auto assist.",
+   "duration": "Ongoing",
+   "howToAvail": "Call the Concierge Service on 1860 267 7777 for Auto Assist.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Experience.png"
+  },
+  {
+   "name": "Insurance",
+   "type": "INSURANCE",
+   "description": "Travel Insurance",
+   "offer": "Insurance benefits include coverage for lost baggage up to ₹1,00,000, delayed baggage up to ₹25,000, loss of passport up to ₹50,000, and lost ticket up to ₹25,000.",
+   "duration": "Ongoing",
+   "howToAvail": "To claim this insurance, email rupay@newindia.co.in within 30 days of the incident. Ensure to submit all required documents within 60 days of reporting the claim",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/newicons/Insurance.webp"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Concierge",
+   "child": "24x7 Concierge Services"
+  },
+  {
+   "mainTitle": "Insurance",
+   "child": "Travel Insurance"
+  }
+ ],
+ "lounge": {
+  "tiers": [],
+  "structured": [],
+  "airports": 0
+ },
+ "milestones": [],
+ "completeness": {
+  "earn_rules_total": 18,
+  "earn_rules_structured": 3,
+  "earn_rules_emitted": 18,
+  "earn_rules_with_category": 12,
+  "benefits_total": 8,
+  "benefits_structured": 2,
+  "lounge_total": 0,
+  "lounge_structured": 0,
+  "milestones_count": 0,
+  "categories_tested": 16,
+  "categories_earning": 15
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 2.5,
+   "reward_worth_inr": 100,
+   "reward_points": 250,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 1.6,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 160,
+   "reward_points": 400,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.56,
+   "points_per_100": 1.4,
+   "reward_worth_inr": 56,
+   "reward_points": 140,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.8,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 80,
+   "reward_points": 200,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.2,
+   "points_per_100": 0.5,
+   "reward_worth_inr": 20,
+   "reward_points": 50,
+   "point_value_inr": 0.4,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 15,
+  "max_rate_pct": 1.6,
+  "base_rate_pct": 0.2,
+  "point_value_inr": 0.4
+ }
+}

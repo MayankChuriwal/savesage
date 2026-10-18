@@ -1,0 +1,408 @@
+{
+ "slug": "axis-flipkart-super-elite",
+ "card_id": 46,
+ "title": "Axis Flipkart Super Elite credit card",
+ "display_name": "Flipkart Super Elite",
+ "issuer": {
+  "slug": "axis",
+  "name": "Axis"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": 500,
+  "renewal": 500,
+  "addon": 0,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 55.55
+ },
+ "return_percentage": "5% to 8%",
+ "overview": "A co-branded premium shopping card with Flipkart offering elevated cashback on Flipkart and Myntra purchases, milestone benefits, and exclusive partner discounts for frequent online shoppers.",
+ "best_suited": [
+  "Brand Wallet",
+  "Cashback"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "brand-wallet"
+ ],
+ "benefit_types": [
+  "MEMBERSHIP",
+  "VOUCHERS",
+  "DINING_ORDER_IN"
+ ],
+ "lounge_types": [],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/FLIPKART%20SUPER%20ELITE.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/AXIS.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 2,
+    "per": 100,
+    "currency": "INR",
+    "unit": "Supercoins"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 100,
+   "raw_text": "Earn 2 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Flipkart (Plus)",
+   "is_base_rate": false,
+   "rate": {
+    "value": 12,
+    "per": 100,
+    "currency": "INR",
+    "unit": "Supercoins"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 12 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "inferred_card_unit"
+   }
+  },
+  {
+   "name": "Flipkart",
+   "is_base_rate": false,
+   "rate": {
+    "value": 6,
+    "per": 100,
+    "currency": "INR",
+    "unit": "Supercoins"
+   },
+   "category": "Online",
+   "subcategory": "E-Commerce",
+   "merchant_raw": "Flipkart",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 6 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "inferred_card_unit"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Government",
+   "category": "Government"
+  },
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  },
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "Education",
+   "category": "Education"
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Cleartrip Flights",
+   "type": "VOUCHERS",
+   "description": "10% off on International Flights.",
+   "offer": null,
+   "duration": "Ongoing",
+   "howToAvail": "To avail this Cleartrip Flights voucher with Axis Flipkart Super Elite, log in at https://axisbankaura.poshvine.com using your registered mobile number, enter the OTP sent to your phone, select your Cleartrip Flights voucher from the benefits, and redeem it online at www.cleartrip.com.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/Cleartrip%20Logo.png"
+  },
+  {
+   "name": "EazyDiner",
+   "type": "DINING_ORDER_IN",
+   "description": "15% off via Dining Delights Program",
+   "offer": "15% off up to INR 500 on EazyDiner.|Minimum Order Value INR 2500",
+   "duration": "Ongoing",
+   "howToAvail": "Select the restaurant to be paid on the EazyDiner app.|Enter the amount, and select the offer.|Discount will be applied and net payment will be required to be made.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/EasyDiner.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Cleartrip Flights",
+   "child": "10% off on International Flights."
+  },
+  {
+   "mainTitle": "EazyDiner",
+   "child": "15% off via Dining Delights Program"
+  }
+ ],
+ "lounge": {
+  "tiers": [],
+  "structured": [],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 200000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 3,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 3,
+  "earn_rules_with_category": 1,
+  "benefits_total": 7,
+  "benefits_structured": 2,
+  "lounge_total": 0,
+  "lounge_structured": 0,
+  "milestones_count": 1,
+  "categories_tested": 16,
+  "categories_earning": 8
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 1.5,
+   "points_per_100": 1.5,
+   "reward_worth_inr": 150,
+   "reward_points": 150,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 8,
+  "max_rate_pct": 2.0,
+  "base_rate_pct": 1.5,
+  "point_value_inr": 1.0
+ }
+}

@@ -1,0 +1,470 @@
+{
+ "slug": "union-bank-nexteria-ekka",
+ "card_id": 33400,
+ "title": "Union Bank Nexteria (Ekka) credit card",
+ "display_name": "Nexteria (Ekka)",
+ "issuer": {
+  "slug": "union-bank",
+  "name": "Union Bank"
+ },
+ "network": "RUPAY",
+ "fees": {
+  "joining": 12499,
+  "renewal": 12499,
+  "addon": 12499,
+  "forex_markup_pct": 3,
+  "apr_pct": null
+ },
+ "return_percentage": "NA",
+ "overview": "The Union Bank NEXTERIA Credit Card is a super-premium RuPay EKAA metal travel-and-lifestyle card offering unlimited domestic & international airport lounge access, premium hotel and concierge perks, and robust travel-related benefits aimed at affluent users.",
+ "best_suited": [],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "travel-booking",
+  "catalogue-products"
+ ],
+ "benefit_types": [
+  "DINING_ORDER_IN",
+  "TRAVEL",
+  "CONCIERGE",
+  "GOLF",
+  "MEMBERSHIP",
+  "INSURANCE"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE",
+  "INTERNATIONAL_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/Mapped/Union%20Bank%20Mapped.webp",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bankLogo/Union%20Bank%20of%20India.webp"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 5,
+    "per": 125,
+    "currency": "INR",
+    "unit": "Reward Points (RPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 5 Reward Points per ₹125 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Birthday Month",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 125,
+    "currency": "INR",
+    "unit": "Reward Points (RPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹125 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "inferred_card_unit"
+   }
+  },
+  {
+   "name": "> ₹2L",
+   "is_base_rate": false,
+   "rate": {
+    "value": 25,
+    "per": 125,
+    "currency": "INR",
+    "unit": "Reward Points (RPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 25 Reward Points per ₹125 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "inferred_card_unit"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Wallets",
+   "category": null
+  },
+  {
+   "name": "Insurance",
+   "category": null
+  },
+  {
+   "name": "Bitcoin",
+   "category": null
+  },
+  {
+   "name": "Wine Shops",
+   "category": null
+  },
+  {
+   "name": "Jewellery",
+   "category": null
+  },
+  {
+   "name": "Fuel",
+   "category": null
+  }
+ ],
+ "benefits": [
+  {
+   "name": "CLUB ITC",
+   "type": "DINING_ORDER_IN",
+   "description": "1+1 complimentary buffet at participating ITC Hotels",
+   "offer": "Get 1+1 complimentary buffet at participating ITC Hotels with your Credit Card.",
+   "duration": "Ongoing",
+   "howToAvail": "To avail the offer, call the 24x7 Concierge at 1800 118 887 or 022 42320226 and share your preferred ITC hotel, date, and time of visit. You will receive a reservation confirmation via email. Present this email at the restaurant during your visit and make the balance payment using your Credit Card. Please refer to the offer details and terms & conditions applicable.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/HOTEL%20LOYALTY/clubITC.png"
+  },
+  {
+   "name": "CLUB ITC",
+   "type": "TRAVEL",
+   "description": "2+1 complimentary night @ ITC Hotels",
+   "offer": "Book a 3-night stay and pay for only 2 nights at participating ITC Hotels with your Credit Card.|Complimentary night applicable only on room rate; taxes and additional services are payable by the guest.|One complimentary night allowed per booking, valid only for 3-night stays.",
+   "duration": "Ongoing",
+   "howToAvail": "To Avail this offer,\n1. Click on Book Now (https://www.itchotels.com/in/en/promotions/hdfc-offer) to reserve your stay.\n2. Present the booking confirmation at check-in and pay for the balance room nights using your Credit Card.\n3. Please review the offer details and applicable terms & conditions before availing the offer.\n4. For cancellations, contact the booked hotel directly via email or their helpdesk number. Cancellations will be accepted as per the individual ITC Hotels’ policies.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/HOTEL%20LOYALTY/clubITC.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "CLUB ITC",
+   "child": "1+1 complimentary buffet at participating ITC Hotels"
+  },
+  {
+   "mainTitle": "CLUB ITC",
+   "child": "2+1 complimentary night @ ITC Hotels"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     ""
+    ]
+   },
+   {
+    "maintitle": "International lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     ""
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "Unlimited",
+    "visitsPerCycle": "Unlimited",
+    "duration": "year",
+    "eligibility": "No explicit spend condition"
+   }
+  ],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 300000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": true,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "The joining fee will be waived.",
+   "milestoneType": "QUARTER"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 800000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 3,
+   "spent": 1000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "10000 Reward Points",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 4,
+   "spent": 1200000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "15000 Reward Points",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 3,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 3,
+  "earn_rules_with_category": 0,
+  "benefits_total": 6,
+  "benefits_structured": 2,
+  "lounge_total": 2,
+  "lounge_structured": 1,
+  "milestones_count": 4,
+  "categories_tested": 16,
+  "categories_earning": 12
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 12,
+  "max_rate_pct": 1.0,
+  "base_rate_pct": 1.0,
+  "point_value_inr": 0.25
+ }
+}

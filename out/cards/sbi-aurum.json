@@ -1,0 +1,473 @@
+{
+ "slug": "sbi-aurum",
+ "card_id": 166,
+ "title": "SBI Aurum credit card",
+ "display_name": "Aurum",
+ "issuer": {
+  "slug": "sbi",
+  "name": "SBI"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": 9999,
+  "renewal": 9999,
+  "addon": 0,
+  "forex_markup_pct": 1.99,
+  "apr_pct": 45
+ },
+ "return_percentage": "3% to 10%",
+ "overview": "An ultra-premium Aurum card offering luxury lifestyle benefits, concierge support, milestone vouchers, and unlimited lounge access for affluent users.",
+ "best_suited": [
+  "Experience",
+  "Travel Booking",
+  "Hotel Transfer",
+  "Pay by Points"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "travel-booking",
+  "brand-wallet",
+  "catalogue-products"
+ ],
+ "benefit_types": [
+  "MEMBERSHIP",
+  "MOVIES_AND_EVENTS",
+  "CONCIERGE",
+  "GOLF",
+  "INSURANCE"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE",
+  "INTERNATIONAL_LOUNGE",
+  "DOMESTIC_AIRPORT_SPA"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/Mapped/SBI.webp",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/SBI.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 4,
+    "per": 100,
+    "currency": "INR",
+    "unit": "Reward Points (RPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 100,
+   "raw_text": "Earn 4 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Digital gaming",
+   "category": null
+  },
+  {
+   "name": "UPI",
+   "category": "UPI"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "Education (Third-party)",
+   "category": null
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Angel Investment Network",
+   "type": "MEMBERSHIP",
+   "description": "Complementary Access to Angel Investment Network",
+   "offer": "Embrace the role of an Angel Investor with 1-year complimentary membership to Inflection Point Venture(IPV), worth Rs.29,382.",
+   "duration": null,
+   "howToAvail": null,
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Primary_Icons/Others.png"
+  },
+  {
+   "name": "BookMyShow",
+   "type": "MOVIES_AND_EVENTS",
+   "description": "Get 4 Movie Tickets Worth Rs 1,000",
+   "offer": "Get 4 movie tickets worth ₹1,000 monthly on BookMyShow.com.|2 free tickets per booking, max ₹500 discount (₹250 per ticket), with a minimum 24-hour gap between bookings.",
+   "duration": "Ongoing",
+   "howToAvail": "To avail this offer, visit the BookMyShow website or app.|Select your movie, date, time, and seats.|Proceed to payment and find the offers/discounts section.|Select the applicable bank discount offer and enter your card details.|Complete the payment to get the Offer.",
+   "exclusion": "Convenience fee charged, as applicable.",
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": 4,
+   "movieDuration": "month",
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/Bookmyshow.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Angel Investment Network",
+   "child": "Complementary Access to Angel Investment Network"
+  },
+  {
+   "mainTitle": "BookMyShow",
+   "child": "Get 4 Movie Tickets Worth Rs 1,000"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "4 per quarter"
+    ],
+    "eligibility": [
+     "Applicable for Add-on Cardholder(s) as well."
+    ]
+   },
+   {
+    "maintitle": "International lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "Complimentary DreamFolks Membership and enjoy unlimited complimentary access to 1000+ International Airport Lounges, along with complimentary visit, once a quarter, for a guest"
+    ]
+   },
+   {
+    "maintitle": "Domestic airport spa",
+    "limit": [
+     "1 per quarter"
+    ],
+    "eligibility": [
+     "No explicit spend condition"
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "4 per quarter",
+    "visitsPerCycle": "4",
+    "duration": "quarter",
+    "eligibility": "Applicable for Add-on Cardholder(s) as well."
+   }
+  ],
+  "airports": 38
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 0,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "40,000 RPs",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 100000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "CALENDAR",
+   "benefits": "Tata CliQ voucher worth ₹1,500.",
+   "milestoneType": "MONTH"
+  },
+  {
+   "milestoneNumber": 3,
+   "spent": 500000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Tata CliQ Luxury voucher worth ₹5,000.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 4,
+   "spent": 1000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Taj experience voucher worth ₹10,000.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 5,
+   "spent": 1200000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 6,
+   "spent": 2000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Apple vouchers worth ₹20,000.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 1,
+  "earn_rules_structured": 1,
+  "earn_rules_emitted": 1,
+  "earn_rules_with_category": 0,
+  "benefits_total": 8,
+  "benefits_structured": 2,
+  "lounge_total": 3,
+  "lounge_structured": 1,
+  "milestones_count": 6,
+  "categories_tested": 16,
+  "categories_earning": 9
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 4.0,
+   "reward_worth_inr": 100,
+   "reward_points": 400,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 9,
+  "max_rate_pct": 1.0,
+  "base_rate_pct": 1.0,
+  "point_value_inr": 0.25
+ }
+}

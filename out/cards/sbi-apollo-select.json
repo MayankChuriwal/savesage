@@ -1,0 +1,512 @@
+{
+ "slug": "sbi-apollo-select",
+ "card_id": 36173,
+ "title": "SBI Apollo Select credit card",
+ "display_name": "Apollo Select",
+ "issuer": {
+  "slug": "sbi",
+  "name": "SBI"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": 1499,
+  "renewal": 1499,
+  "addon": null,
+  "forex_markup_pct": 3.5,
+  "apr_pct": 45
+ },
+ "return_percentage": "NA",
+ "overview": "A healthcare-centric card that gives high value-back on pharmacy & wellness spends, rewards on lifestyle categories, plus welcome benefits and lounge access.",
+ "best_suited": [],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [],
+ "benefit_types": [
+  "OTHERS"
+ ],
+ "lounge_types": [
+  "DOMESTIC_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/Mapped/SBI.webp",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/SBI.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 1,
+    "per": 100,
+    "currency": "INR",
+    "unit": "Reward Point (RP)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 100,
+   "raw_text": "Earn 1 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Apollo",
+   "is_base_rate": false,
+   "rate": {
+    "value": 10,
+    "per": 100,
+    "currency": "INR",
+    "unit": "RPs"
+   },
+   "category": "Healthcare",
+   "subcategory": "Healthcare",
+   "merchant_raw": "Apollo",
+   "booking_channel": null,
+   "cap": "A maximum of 5K RPs can be earned per statement cycle on Instore Spends (Apollo 24|7 App & Stores).",
+   "cap_cycle": null,
+   "min_txn": 100,
+   "raw_text": "Earn 10 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "api",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "Movies",
+   "is_base_rate": false,
+   "rate": {
+    "value": 2,
+    "per": 100,
+    "currency": "INR",
+    "unit": "RPs"
+   },
+   "category": "Entertainment",
+   "subcategory": "Entertainment",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 100,
+   "raw_text": "Earn 2 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "api",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Entertainment",
+   "is_base_rate": false,
+   "rate": {
+    "value": 2,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Entertainment",
+   "subcategory": "Entertainment",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 2 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Dining",
+   "is_base_rate": false,
+   "rate": {
+    "value": 2,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "F&B",
+   "subcategory": "Dining",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 2 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Travel",
+   "is_base_rate": false,
+   "rate": {
+    "value": 2,
+    "per": 100,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Travel",
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 2 Reward Points per ₹100 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "name_matches_taxonomy",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Government",
+   "category": "Government"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Digital gaming",
+   "category": null
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Apollo",
+   "type": "OTHERS",
+   "description": "Value Back on medicine purchases at Apollo 24|7 and Apollo Pharmacy",
+   "offer": "Circle Benefits include up to 25% Value Back on medicine purchases at Apollo 24|7 and Apollo Pharmacy",
+   "duration": null,
+   "howToAvail": null,
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/pointsearnlogonew/Apollo.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Apollo",
+   "child": "Value Back on medicine purchases at Apollo 24|7 and Apollo Pharmacy"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "1 per quarter"
+    ],
+    "eligibility": [
+     ""
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "1 per quarter",
+    "visitsPerCycle": "1",
+    "duration": "quarter",
+    "eligibility": "No explicit spend condition"
+   }
+  ],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 0,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Get Apollo 247 e-Gift Voucher worth Rs.1,500.Enjoy 1-year complimentary FITPASS PRO Membership when you pay joining fee and make at least one retail transaction.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 50000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": true,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Get complimentary Comprehensive Health Check-up Package",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 3,
+   "spent": 300000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 4,
+   "spent": 600000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Get complimentary Noise Smartwatch worth Rs.7,999",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 6,
+  "earn_rules_structured": 3,
+  "earn_rules_emitted": 6,
+  "earn_rules_with_category": 5,
+  "benefits_total": 1,
+  "benefits_structured": 1,
+  "lounge_total": 1,
+  "lounge_structured": 1,
+  "milestones_count": 4,
+  "categories_tested": 16,
+  "categories_earning": 10
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 100,
+   "reward_points": 100,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 100,
+   "reward_points": 100,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 100,
+   "reward_points": 100,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 100,
+   "reward_points": 100,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 100,
+   "reward_points": 100,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 100,
+   "reward_points": 100,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 1.0,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 100,
+   "reward_points": 100,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 2.0,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 200,
+   "reward_points": 200,
+   "point_value_inr": 1.0,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 10,
+  "max_rate_pct": 2.0,
+  "base_rate_pct": 1.0,
+  "point_value_inr": 1.0
+ }
+}

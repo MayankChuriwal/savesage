@@ -1,0 +1,258 @@
+{
+ "slug": "bob-unnati",
+ "card_id": 442,
+ "title": "BOB Unnati credit card",
+ "display_name": "Unnati",
+ "issuer": {
+  "slug": "bob",
+  "name": "BOB"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": null,
+  "renewal": null,
+  "addon": null,
+  "forex_markup_pct": null,
+  "apr_pct": null
+ },
+ "return_percentage": "0.5% to 1%",
+ "overview": "A secured credit card issued against fixed deposits, offering basic rewards on spends and helping users build their credit scores.",
+ "best_suited": [
+  "Cashback"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "cashback"
+ ],
+ "benefit_types": [
+  "DINING_ORDER_IN"
+ ],
+ "lounge_types": [],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/upper-chip-bank-cards/bob.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/BOB.png"
+ },
+ "apply_link": null,
+ "earn_rules": [],
+ "exclusions": [],
+ "benefits": [],
+ "benefits_prose": [],
+ "lounge": {
+  "tiers": [],
+  "structured": [],
+  "airports": 38
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 50000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Cashback of ₹500.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 0,
+  "earn_rules_structured": 0,
+  "earn_rules_emitted": 0,
+  "earn_rules_with_category": 0,
+  "benefits_total": 0,
+  "benefits_structured": 0,
+  "lounge_total": 0,
+  "lounge_structured": 0,
+  "milestones_count": 1,
+  "categories_tested": 16,
+  "categories_earning": 8
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.25,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 25,
+   "reward_points": 100,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.25,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 25,
+   "reward_points": 100,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.25,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 25,
+   "reward_points": 100,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.25,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 25,
+   "reward_points": 100,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.25,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 25,
+   "reward_points": 100,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 0.25,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 25,
+   "reward_points": 100,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.25,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 25,
+   "reward_points": 100,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 0.25,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 25,
+   "reward_points": 100,
+   "point_value_inr": 0.25,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 8,
+  "max_rate_pct": 0.25,
+  "base_rate_pct": 0.25,
+  "point_value_inr": 0.25
+ }
+}

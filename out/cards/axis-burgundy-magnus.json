@@ -1,0 +1,572 @@
+{
+ "slug": "axis-burgundy-magnus",
+ "card_id": 40,
+ "title": "Axis Burgundy Magnus credit card",
+ "display_name": "Burgundy Magnus",
+ "issuer": {
+  "slug": "axis",
+  "name": "Axis"
+ },
+ "network": "MASTERCARD",
+ "fees": {
+  "joining": 30000,
+  "renewal": 30000,
+  "addon": 0,
+  "forex_markup_pct": 2,
+  "apr_pct": 42.58
+ },
+ "return_percentage": "6% to 17.5%",
+ "overview": "A luxury lifestyle card crafted for high-spending professionals, offering milestone rewards, unlimited lounge access, concierge services, and accelerated points on travel and dining.",
+ "best_suited": [
+  "Experience",
+  "Travel Booking",
+  "Hotel Transfer",
+  "Pay by Points"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": true,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "travel-booking"
+ ],
+ "benefit_types": [
+  "DINING_ORDER_IN",
+  "GOLF",
+  "INSURANCE",
+  "CONCIERGE",
+  "TRAVEL",
+  "MEMBERSHIP"
+ ],
+ "lounge_types": [
+  "INTERNATIONAL_LOUNGE",
+  "DOMESTIC_LOUNGE",
+  "ADD_ON_CARD_DOMESTIC_LOUNGE",
+  "GUEST_LOUNGE"
+ ],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/MAGNUS.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/AXIS.png"
+ },
+ "apply_link": null,
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 12,
+    "per": 200,
+    "currency": "INR",
+    "unit": "Edge Rewards (ERs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": 200,
+   "raw_text": "Earn 12 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Travel Edge <= ₹2L monthly",
+   "is_base_rate": false,
+   "rate": {
+    "value": 60,
+    "per": 200,
+    "currency": "INR",
+    "unit": "ERs"
+   },
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "Travel Edge",
+   "booking_channel": null,
+   "cap": "Earn 60 Edge Rewards per ₹200 spent on Axis TravelEdge on spends till 2L per calendar month.|TravelEdge spends are not counted towards AEP (Accelerated EDGE Reward Points).",
+   "cap_cycle": "calendar",
+   "min_txn": 200,
+   "raw_text": "Earn 60 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "api",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "> ₹1.5L monthly",
+   "is_base_rate": false,
+   "rate": {
+    "value": 35,
+    "per": 200,
+    "currency": "INR",
+    "unit": "ERs"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": "Earn 35 Edge Rewards per ₹200 spent on spends greater than 1.5L per month up to spends equivalent to your credit limit + additional INR 1.5 Lakhs per calendar month.|Thereafter, you will earn 12 EDGE REWARD Points per Rs.200 spent.|TravelEdge spends are not counted towards AEP (Accelerated EDGE Reward Points).",
+   "cap_cycle": "calendar",
+   "min_txn": 200,
+   "raw_text": "Earn 35 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "Travel Edge > ₹2L monthly",
+   "is_base_rate": false,
+   "rate": {
+    "value": 35,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Travel",
+   "subcategory": "OTAs",
+   "merchant_raw": "Travel Edge",
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 35 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "dictionary",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Education (Third-Party)",
+   "is_base_rate": false,
+   "rate": {
+    "value": 12,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Education",
+   "subcategory": "Education",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 12 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  },
+  {
+   "name": "Rent",
+   "is_base_rate": false,
+   "rate": {
+    "value": 12,
+    "per": 200,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": "Rent",
+   "subcategory": "Rent",
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 12 Reward Points per ₹200 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "dictionary",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  },
+  {
+   "name": "Government",
+   "category": "Government"
+  },
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  },
+  {
+   "name": "Rent > ₹50K",
+   "category": null
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "UPI",
+   "category": "UPI"
+  },
+  {
+   "name": "Gift Cards",
+   "category": null
+  },
+  {
+   "name": "Transportation & Tolls",
+   "category": null
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "EMI",
+   "category": "EMI"
+  },
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "EazyDiner",
+   "type": "DINING_ORDER_IN",
+   "description": "30% off up to INR 1000",
+   "offer": "Minimum Order Value INR 3000 Valid once per card per month",
+   "duration": "Ongoing",
+   "howToAvail": "Select the restaurant to be paid on the EazyDiner app.|Enter the amount, and select the offer.|Discount will be applied and net payment will be required to be made.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/EasyDiner.png"
+  },
+  {
+   "name": "EazyDiner",
+   "type": "DINING_ORDER_IN",
+   "description": "50% off up to INR 3000",
+   "offer": "Birthday Offer on HNI Cards: 50% off up to INR 3000.|Valid once a year for the cardholder’s birthday on the curated list of restaurants on the Birthday Program.|Can be redeemed only once per customer.",
+   "duration": "Ongoing",
+   "howToAvail": "The dining voucher will work only if you pay using the eligible Axis Bank cards and on the EazyDiner app via PayEazy.|You can reach the Culinary Concierge at 7669004444.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/EasyDiner.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "EazyDiner",
+   "child": "30% off up to INR 1000"
+  },
+  {
+   "mainTitle": "EazyDiner",
+   "child": "50% off up to INR 3000"
+  }
+ ],
+ "lounge": {
+  "tiers": [
+   {
+    "maintitle": "International lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "Unlimited through Priority Pass membership"
+    ]
+   },
+   {
+    "maintitle": "Domestic lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "Spend ₹50k in the previous calendar quarter"
+    ]
+   },
+   {
+    "maintitle": "Add on card domestic lounge",
+    "limit": [
+     "Unlimited"
+    ],
+    "eligibility": [
+     "As per primary card."
+    ]
+   },
+   {
+    "maintitle": "Guest lounge",
+    "limit": [
+     "4 per year for international lounges via priority pass"
+    ],
+    "eligibility": [
+     "As per primary card."
+    ]
+   }
+  ],
+  "structured": [
+   {
+    "name": "International Lounges",
+    "tier": "International lounge",
+    "limit": "Unlimited",
+    "visitsPerCycle": "Unlimited",
+    "duration": null,
+    "eligibility": "Unlimited through Priority Pass membership"
+   },
+   {
+    "name": "Domestic Lounges",
+    "tier": "Domestic lounge",
+    "limit": "Unlimited",
+    "visitsPerCycle": "Unlimited",
+    "duration": null,
+    "eligibility": "Spends of ₹50,000 in the previous calendar quarter. Not applicable during the first 3 months from card issuance."
+   },
+   {
+    "name": "Add-on Card Domestic Lounges",
+    "tier": "Add on card domestic lounge",
+    "limit": "Unlimited",
+    "visitsPerCycle": "Unlimited",
+    "duration": null,
+    "eligibility": "As per primary card."
+   }
+  ],
+  "airports": 21
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 0,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Choose any voucher worth INR 5000 from Luxe gift card or The Postcard Hotels gift voucher or Yatra gift voucher",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 3000000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": true,
+   "cycleType": "STATEMENT",
+   "benefits": "The renewal fee will be waived.",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 6,
+  "earn_rules_structured": 3,
+  "earn_rules_emitted": 6,
+  "earn_rules_with_category": 4,
+  "benefits_total": 8,
+  "benefits_structured": 2,
+  "lounge_total": 4,
+  "lounge_structured": 3,
+  "milestones_count": 2,
+  "categories_tested": 16,
+  "categories_earning": 7
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 6.24,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 624,
+   "reward_points": 600,
+   "point_value_inr": 1.04,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 6.24,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 624,
+   "reward_points": 600,
+   "point_value_inr": 1.04,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 6.24,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 624,
+   "reward_points": 600,
+   "point_value_inr": 1.04,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 6.24,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 624,
+   "reward_points": 600,
+   "point_value_inr": 1.04,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 6.24,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 624,
+   "reward_points": 600,
+   "point_value_inr": 1.04,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 6.24,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 624,
+   "reward_points": 600,
+   "point_value_inr": 1.04,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 6.24,
+   "points_per_100": 6.0,
+   "reward_worth_inr": 624,
+   "reward_points": 600,
+   "point_value_inr": 1.04,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 7,
+  "max_rate_pct": 6.24,
+  "base_rate_pct": 6.24,
+  "point_value_inr": 1.04
+ }
+}

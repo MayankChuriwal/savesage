@@ -1,0 +1,298 @@
+{
+ "slug": "kotak-indigo",
+ "card_id": 19000,
+ "title": "Kotak Indigo credit card",
+ "display_name": "Indigo",
+ "issuer": {
+  "slug": "kotak",
+  "name": "Kotak"
+ },
+ "network": "VISA",
+ "fees": {
+  "joining": null,
+  "renewal": null,
+  "addon": null,
+  "forex_markup_pct": null,
+  "apr_pct": null
+ },
+ "return_percentage": "1% to 10%",
+ "overview": "Fly smarter and earn endlessly with IndiGo BluChips on every spend. Accelerate your earnings on IndiGo flights, dining, entertainment, and more, making your wanderlust truly limitless.",
+ "best_suited": [
+  "Cashback"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [
+  "brand-wallet"
+ ],
+ "benefit_types": [],
+ "lounge_types": [],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/Mapped/KOTAK.webp",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/KOTAK.png"
+ },
+ "apply_link": null,
+ "earn_rules": [],
+ "exclusions": [],
+ "benefits": [],
+ "benefits_prose": [],
+ "lounge": {
+  "tiers": [],
+  "structured": [],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 0,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "CALENDAR",
+   "benefits": "2,500 IndiGo BluChips",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 2,
+   "spent": 125000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Earn a voucher worth 2,500 IndiGo BluChips on spending ₹1.25L within the anniversary year",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 3,
+   "spent": 250000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Earn the 2rd voucher worth 2,500 IndiGo BluChips on spending ₹2.5L within the anniversary year",
+   "milestoneType": "YEAR"
+  },
+  {
+   "milestoneNumber": 4,
+   "spent": 600000,
+   "startAmount": 0,
+   "duration": 1,
+   "isRecurring": true,
+   "welcomeBenefit": false,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "STATEMENT",
+   "benefits": "Earn the 3rd voucher worth 2,500 IndiGo BluChips on spending ₹6L within the anniversary year",
+   "milestoneType": "YEAR"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 0,
+  "earn_rules_structured": 0,
+  "earn_rules_emitted": 0,
+  "earn_rules_with_category": 0,
+  "benefits_total": 0,
+  "benefits_structured": 0,
+  "lounge_total": 0,
+  "lounge_structured": 0,
+  "milestones_count": 4,
+  "categories_tested": 16,
+  "categories_earning": 10
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 2.4,
+   "points_per_100": 3.0,
+   "reward_worth_inr": 240,
+   "reward_points": 300,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 0.8,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 80,
+   "reward_points": 100,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.8,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 80,
+   "reward_points": 100,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 0.8,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 80,
+   "reward_points": 100,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.8,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 80,
+   "reward_points": 100,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 0.8,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 80,
+   "reward_points": 100,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 1.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 160,
+   "reward_points": 200,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 0.8,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 80,
+   "reward_points": 100,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 1.6,
+   "points_per_100": 2.0,
+   "reward_worth_inr": 160,
+   "reward_points": 200,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.8,
+   "points_per_100": 1.0,
+   "reward_worth_inr": 80,
+   "reward_points": 100,
+   "point_value_inr": 0.8,
+   "is_cashback": false,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": false,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 10,
+  "max_rate_pct": 2.4,
+  "base_rate_pct": 0.8,
+  "point_value_inr": 0.8
+ }
+}

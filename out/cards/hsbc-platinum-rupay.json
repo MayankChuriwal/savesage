@@ -1,0 +1,425 @@
+{
+ "slug": "hsbc-platinum-rupay",
+ "card_id": 18999,
+ "title": "HSBC Platinum (Rupay) credit card",
+ "display_name": "Platinum (Rupay)",
+ "issuer": {
+  "slug": "hsbc",
+  "name": "HSBC"
+ },
+ "network": "RUPAY",
+ "fees": {
+  "joining": null,
+  "renewal": 0,
+  "addon": null,
+  "forex_markup_pct": null,
+  "apr_pct": 45
+ },
+ "return_percentage": "1% to 10%",
+ "overview": "A RuPay Platinum variant from HSBC with elevated rewards, travel perks, and lifestyle benefits for frequent domestic users.",
+ "best_suited": [
+  "Cashback"
+ ],
+ "flags": {
+  "is_fd_card": false,
+  "is_business": false,
+  "is_popular": false,
+  "is_currently_issuing": true
+ },
+ "collections": [],
+ "benefit_types": [
+  "TRAVEL",
+  "SHOPPING",
+  "DINING_ORDER_IN",
+  "OTHERS",
+  "MOVIES_AND_EVENTS"
+ ],
+ "lounge_types": [],
+ "images": {
+  "card": "https://d3dx7t8uh9asmu.cloudfront.net/creditcardimages/PLATINUM.png",
+  "bank_logo": "https://d3dx7t8uh9asmu.cloudfront.net/bank_square/HSBC.png"
+ },
+ "apply_link": "https://track.techtrack.in/click?campaign_id=847&pub_id=1356&p1=SaveSage&p2=SS01",
+ "earn_rules": [
+  {
+   "name": "Base Rewards",
+   "is_base_rate": true,
+   "rate": {
+    "value": 2,
+    "per": 150,
+    "currency": "INR",
+    "unit": "Reward Points (RPs)"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 2 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "null"
+   }
+  },
+  {
+   "name": "HSBC - Hotels",
+   "is_base_rate": false,
+   "rate": {
+    "value": 12,
+    "per": 150,
+    "currency": "INR",
+    "unit": "RPs"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Hotels via HSBC",
+   "booking_channel": null,
+   "cap": "A maximum of 18,000 HSBC Reward Points (accelerated points) can be earned per cardholder per calendar month.|Accelerated Reward Points will be credited to the cardholder’s account within 10 days of settling the transaction.",
+   "cap_cycle": "statement",
+   "min_txn": null,
+   "raw_text": "Earn 12 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "HSBC - Flights",
+   "is_base_rate": false,
+   "rate": {
+    "value": 8,
+    "per": 150,
+    "currency": "INR",
+    "unit": "RPs"
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": "Flights via HSBC",
+   "booking_channel": null,
+   "cap": "A maximum of 18,000 HSBC Reward Points (accelerated points) can be earned per cardholder per calendar month.|Accelerated Reward Points will be credited to the cardholder’s account within 10 days of settling the transaction.",
+   "cap_cycle": "statement",
+   "min_txn": null,
+   "raw_text": "Earn 8 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "api",
+    "category": "null",
+    "merchant_raw": "api"
+   }
+  },
+  {
+   "name": "HSBC - Car Rentals",
+   "is_base_rate": false,
+   "rate": {
+    "value": 4,
+    "per": 150,
+    "currency": "INR",
+    "unit": null
+   },
+   "category": null,
+   "subcategory": null,
+   "merchant_raw": null,
+   "booking_channel": null,
+   "cap": null,
+   "cap_cycle": null,
+   "min_txn": null,
+   "raw_text": "Earn 4 Reward Points per ₹150 spent",
+   "provenance": {
+    "rate": "parsed",
+    "category": "null",
+    "merchant_raw": "null",
+    "unit": "null"
+   }
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Wallets",
+   "category": "Wallets"
+  },
+  {
+   "name": "Insurance",
+   "category": "Insurance"
+  },
+  {
+   "name": "Fuel",
+   "category": "Fuel"
+  },
+  {
+   "name": "Education",
+   "category": "Education"
+  },
+  {
+   "name": "Rent",
+   "category": "Rent"
+  },
+  {
+   "name": "Utilities",
+   "category": "Utilities"
+  },
+  {
+   "name": "Government",
+   "category": "Government"
+  },
+  {
+   "name": "Jewellery",
+   "category": "Jewellery"
+  }
+ ],
+ "benefits": [
+  {
+   "name": "Cleartrip",
+   "type": "TRAVEL",
+   "description": "Travel Bookings",
+   "offer": "Avail up to ₹6,000 off on flights and hotel bookings.",
+   "duration": "Ongoing",
+   "howToAvail": "To avail the HSBC RuPay Platinum Credit Card's Cleartrip offer on International Flights, simply make a booking of INR 15,000 or more on the Cleartrip website or app. During checkout, apply the promocode HSBCRPCC and complete the transaction using your HSBC RuPay Platinum Credit Card to receive a flat 10% discount, capped at a maximum of INR 6,000. This offer is valid once per user per product.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/Card_benefits/Cleartrip%20Logo.png"
+  },
+  {
+   "name": "Paytm",
+   "type": "SHOPPING",
+   "description": "Enjoy 5% off on bill payments",
+   "offer": "5% off on transactions of Rs. 299 and above on bill payments- mobile (prepaid and postpaid), broadband, DTH, water bills, gas cylinders, piped gas bills, FASTag and electricity bills; capped at Rs. 150",
+   "duration": "Ongoing",
+   "howToAvail": "To avail the HSBC RuPay Platinum Credit Card's Paytm offer, simply make an eligible bill payment of INR 299 or more on the Paytm app or website. During checkout, apply the promocode HSBC150 and complete the transaction using your HSBC RuPay Platinum Credit Card to receive a 5% discount, capped at a maximum of INR 150, once per month.",
+   "exclusion": null,
+   "golfSessions": null,
+   "golfDuration": null,
+   "movieTickets": null,
+   "movieDuration": null,
+   "imageUrl": "https://d3dx7t8uh9asmu.cloudfront.net/cardbenefits-logos/Paytm.png"
+  }
+ ],
+ "benefits_prose": [
+  {
+   "mainTitle": "Cleartrip",
+   "child": "Travel Bookings"
+  },
+  {
+   "mainTitle": "Paytm",
+   "child": "Enjoy 5% off on bill payments"
+  }
+ ],
+ "lounge": {
+  "tiers": [],
+  "structured": [],
+  "airports": 0
+ },
+ "milestones": [
+  {
+   "milestoneNumber": 1,
+   "spent": 5000,
+   "startAmount": 0,
+   "duration": 30,
+   "isRecurring": false,
+   "welcomeBenefit": true,
+   "renewalBenefit": false,
+   "joiningFeeWaiver": false,
+   "renewalFeeWaiver": false,
+   "cycleType": "CALENDAR",
+   "benefits": "Get INR 500 cashback when you download and log on to the HSBC India Mobile Banking app",
+   "milestoneType": "DAYS"
+  }
+ ],
+ "completeness": {
+  "earn_rules_total": 4,
+  "earn_rules_structured": 3,
+  "earn_rules_emitted": 4,
+  "earn_rules_with_category": 0,
+  "benefits_total": 9,
+  "benefits_structured": 2,
+  "lounge_total": 0,
+  "lounge_structured": 0,
+  "milestones_count": 1,
+  "categories_tested": 16,
+  "categories_earning": 8
+ },
+ "source": {
+  "site": "savesage.club",
+  "api": "api.savesage.club",
+  "tabs": [
+   "earn-categories",
+   "benefits-and-offers",
+   "lounge-access",
+   "milestones"
+  ]
+ },
+ "category_rates": {
+  "Fuel": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Travel": {
+   "effective_rate_pct": 5.33,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 533,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "UPI": {
+   "effective_rate_pct": 1.33,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 133,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "International": {
+   "effective_rate_pct": 1.33,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 133,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Education": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Jewellery": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Grocery": {
+   "effective_rate_pct": 1.33,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 133,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Insurance": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Offline Spends": {
+   "effective_rate_pct": 1.33,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 133,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Dining": {
+   "effective_rate_pct": 1.33,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 133,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Gift Cards": {
+   "effective_rate_pct": 1.33,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 133,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Utilities": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Online Shopping": {
+   "effective_rate_pct": 1.33,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 133,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": false,
+   "spend_tested": 10000
+  },
+  "Government": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Rent": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  },
+  "Wallets": {
+   "effective_rate_pct": 0.0,
+   "points_per_100": 0.0,
+   "reward_worth_inr": 0,
+   "reward_points": 0,
+   "point_value_inr": null,
+   "is_cashback": true,
+   "earns_nothing": true,
+   "spend_tested": 10000
+  }
+ },
+ "rate_summary": {
+  "categories_tested": 16,
+  "categories_earning": 8,
+  "max_rate_pct": 5.33,
+  "base_rate_pct": 1.33,
+  "point_value_inr": null
+ }
+}
